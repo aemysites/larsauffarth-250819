@@ -1,0 +1,31 @@
+{
+  "originUrl": "https://www.bmw.fr",
+  "aborted": false,
+  "urls": [],
+  "lastCrawled": null,
+  "crawlOptions": {
+    "limit": 100,
+    "strategy": "manual",
+    "strategiesAttempted": [
+      "MANUAL"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.bmw.fr/fr/index.html",
+      "message": "resource crawl error: Url https://www.bmw.fr/fr/index.html: fetch failed"
+    },
+    {
+      "url": "https://www.bmw.fr/fr/tous-les-modeles/x-series/x3/bmw-x3-phev.html",
+      "message": "resource crawl error: Url https://www.bmw.fr/fr/tous-les-modeles/x-series/x3/bmw-x3-phev.html: fetch failed"
+    },
+    {
+      "url": "https://www.bmw.fr/fr/tous-les-modeles/x-series/x3/bmw-x3.html",
+      "message": "resource crawl error: Url https://www.bmw.fr/fr/tous-les-modeles/x-series/x3/bmw-x3.html: fetch failed"
+    },
+    {
+      "url": "https://www.bmw.fr/fr/services-and-workshop.html",
+      "message": "resource crawl error: Url https://www.bmw.fr/fr/services-and-workshop.html: fetch failed"
+    }
+  ]
+}
