@@ -59,7 +59,6 @@
   box-sizing: border-box;
 }
 
-/* --- TEXT PANEL (LEFT) --- */
 .hero.hero2.block > div:last-child {
   flex: 0 1 38%;
   order: 1;
@@ -73,7 +72,6 @@
   box-sizing: border-box;
 }
 
-/* Gradient overlay only on left panel, fades smoothly into image */
 .hero.hero2.block > div:last-child::before {
   content: '';
   position: absolute;
@@ -83,7 +81,6 @@
   background: linear-gradient(90deg, #000 75%, rgb(0 0 0 / 0%) 100%);
 }
 
-/* Center content vertically, pad from left */
 .hero.hero2.block > div:last-child > div {
   position: relative;
   z-index: 2;
@@ -97,7 +94,6 @@
   gap: 0.8rem;
 }
 
-/* --- IMAGE PANEL (RIGHT) --- */
 .hero.hero2.block > div:first-child {
   flex: 1 1 62%;
   order: 2;
@@ -110,7 +106,6 @@
   background: transparent;
 }
 
-/* Image fills panel, is always visible */
 .hero.hero2.block > div:first-child picture,
 .hero.hero2.block > div:first-child img {
   width: 100%;
@@ -123,7 +118,6 @@
   pointer-events: none;
 }
 
-/* --- TYPOGRAPHY OVERRIDES --- */
 .hero.hero2.block h6,
 .hero.hero2.block h1,
 .hero.hero2.block p {
@@ -135,7 +129,6 @@
   letter-spacing: normal;
 }
 
-/* "THE" (h6) */
 .hero.hero2.block h6 {
   font-size: 1.1rem;
   font-weight: 400;
@@ -144,7 +137,6 @@
   margin-bottom: 0.7rem;
 }
 
-/* Huge "X3" */
 .hero.hero2.block > div:last-child > div > p:nth-of-type(1) {
   font-size: 6.3rem;
   font-weight: 100;
@@ -153,7 +145,6 @@
   letter-spacing: -0.04em;
 }
 
-/* Model subheading */
 .hero.hero2.block h1 {
   font-size: 1.68rem;
   font-weight: 600;
@@ -161,7 +152,6 @@
   letter-spacing: 0.01em;
 }
 
-/* "699€*" */
 .hero.hero2.block > div:last-child > div > p:nth-of-type(2) {
   font-size: 2.3rem;
   font-weight: 700;
@@ -169,7 +159,6 @@
   line-height: 1.01;
 }
 
-/* Sub-info under price */
 .hero.hero2.block > div:last-child > div > p:nth-of-type(3) {
   font-size: 1.07rem;
   font-weight: 400;
@@ -178,7 +167,6 @@
   line-height: 1.35;
 }
 
-/* --- BUTTON OVERRIDES --- */
 .hero.hero2.block .button-container {
   margin-top: 1.18rem;
 }
@@ -205,7 +193,6 @@
   color: #fff;
 }
 
-/* --- RESPONSIVE: STACK ON SMALL SCREENS --- */
 @media (width <= 900px) {
   .hero.hero2.block {
     flex-direction: column;
@@ -270,5 +257,184 @@
 
   .hero.hero2.block .button-container {
     margin-top: 0.7rem;
+  }
+}
+
+
+.hero.hero4 {
+  position: relative;
+  min-height: 380px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: none;
+  padding: 0;
+}
+
+/* Car image on the right side */
+.hero.hero4 > div:first-child {
+  flex: 2 1 0;
+  order: 2;
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  width: 0;
+  min-width: 0;
+  min-height: 380px;
+}
+
+.hero.hero4 > div:first-child > div {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.hero.hero4 picture,
+.hero.hero4 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  min-height: 380px;
+}
+
+/* Gradient overlay on left side of image for readability */
+.hero.hero4 > div:first-child > div::before {
+  display: block;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  background: linear-gradient(
+    to right,
+    rgb(0 0 0 / 93%) 0%,
+    rgb(0 0 0 / 78%) 33%,
+    rgb(0 0 0 / 32%) 56%,
+    rgb(0 0 0 / 0%) 100%
+  );
+}
+
+/* Content block overlays the left side, vertically centered */
+.hero.hero4 > div:last-child {
+  flex: 1 1 320px;
+  order: 1;
+  position: absolute;
+  left: 0; top: 0; bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 3;
+  padding-top: 0;
+  padding-left: 30px;
+  padding-right: 22px;
+  min-width: 230px;
+  max-width: 360px;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+/* Inner stack: vertical spacing tuned to original */
+.hero.hero4 > div:last-child > div {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 340px;
+}
+
+/* Typography tweaks for hierarchy and contrast */
+.hero.hero4 > div:last-child p,
+.hero.hero4 > div:last-child h2 {
+  color: #fff;
+  text-align: left;
+  margin: 0;
+  line-height: 1.17;
+  font-family: var(--heading-font-family);
+}
+
+.hero.hero4 > div:last-child p:first-child {
+  font-size: 1.17rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  opacity: 0.97;
+  margin-bottom: 0;
+}
+
+.hero.hero4 > div:last-child h2 {
+  font-size: 2.15rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  margin-bottom: 0;
+}
+
+/* Button: transparent, white border, correct sizing and alignment */
+.hero.hero4 .button-container {
+  margin-top: 18px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.hero-container > .hero-wrapper > .block.hero.hero4 .button {
+  border: 1px solid #fff;
+  background: transparent;
+  color: #fff;
+  border-radius: 0;
+  padding: 13px 38px;
+  font-size: 1.06rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  box-shadow: none;
+  margin: 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.hero-container > .hero-wrapper > .block.hero.hero4 .button:hover,
+.hero-container > .hero-wrapper > .block.hero.hero4 .button:focus {
+  background: #fff;
+  color: #000;
+}
+
+/* Hide any unwanted pill links */
+.hero.hero4 a[href*="fastlane"],
+.hero.hero4 a[href*="publicpools"] {
+  display: none;
+}
+
+/* Responsive: stack content below image on mobile, reduce paddings */
+@media (width <= 900px) {
+  .hero.hero4 {
+    flex-direction: column;
+    min-height: 420px;
+  }
+
+  .hero.hero4 > div:first-child,
+  .hero.hero4 > div:last-child {
+    position: static;
+    width: 100%;
+    min-width: 0;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .hero.hero4 > div:last-child {
+    padding: 34px 5vw 28px;
+    max-width: 100%;
+    min-width: 0;
+    justify-content: flex-start;
+  }
+
+  .hero.hero4 > div:last-child > div {
+    max-width: 100%;
+    gap: 18px;
+  }
+
+  .hero.hero4 picture,
+  .hero.hero4 img {
+    min-height: 220px;
+    max-height: 320px;
   }
 }
