@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -35,28 +36,24 @@
 
 .columns.columns6 {
   background: #fff;
-
-  /* Top and bottom padding to visually anchor the block higher (less floating) */
   padding: 48px 0 80px;
   width: 100%;
   box-sizing: border-box;
-  display: block; /* Remove vertical centering */
+  display: block;
 }
 
-/* Flex row for side-by-side layout */
 .columns.columns6 > div {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;   /* Top align image and text */
+  align-items: flex-start;
   justify-content: center;
-  gap: 56px;                 /* Slightly increased gap for premium spacing */
+  gap: 56px;
   max-width: 1150px;
   width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
 }
 
-/* On small screens, stack vertically */
 @media (width <= 900px) {
   .columns.columns6 {
     padding: 32px 0;
@@ -70,7 +67,6 @@
   }
 }
 
-/* Image column: fixed size, top-aligned */
 .columns.columns6 .columns-img-col {
   width: 520px;
   height: 390px;
@@ -111,7 +107,6 @@
   border-radius: 0;
 }
 
-/* Content column: align to top, tighter width, allow content to define height */
 .columns.columns6 > div > div:not(.columns-img-col) {
   display: flex;
   flex-direction: column;
@@ -131,7 +126,6 @@
   }
 }
 
-/* Subtitle style */
 .columns.columns6 h6 {
   font-size: 14px;
   font-weight: 400;
@@ -141,7 +135,6 @@
   margin: 0 0 10px;
 }
 
-/* Headline */
 .columns.columns6 h2 {
   font-size: 30px;
   font-weight: 500;
@@ -150,7 +143,6 @@
   line-height: 1.2;
 }
 
-/* Description text */
 .columns.columns6 > div > div:not(.columns-img-col) p:not(.button-container) {
   font-size: 17px;
   color: #222;
@@ -158,12 +150,10 @@
   line-height: 1.5;
 }
 
-/* Button container spacing */
 .columns.columns6 .button-container {
   margin-top: 16px;
 }
 
-/* Override default button styles for primary outline button */
 .columns.columns6 .button-container .button.primary {
   display: inline-block;
   background: #fff;
@@ -189,4 +179,177 @@
 
 .columns.columns6 .button-container .button.primary:visited {
   color: #000;
+}
+
+
+.columns.columns7 {
+  background: #fafafa;
+  padding: 48px 0 24px;
+  font-family: var(--body-font-family);
+}
+
+/* Main block: two columns side by side, socials below left column */
+.columns.columns7 > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  max-width: 900px;
+  margin: 0 auto;
+  gap: 0 100px;
+  align-items: start;
+}
+
+/* Left column */
+.columns.columns7 > div > div:nth-child(1) {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Right column */
+.columns.columns7 > div > div:nth-child(2) {
+  grid-column: 2;
+  grid-row: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Social icons row: below left column, centered and compact */
+.columns.columns7 > div > div:nth-child(3) {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 32px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Headings */
+.columns.columns7 h3 {
+  font-size: 12px;
+  color: #b3b3b3;
+  font-weight: 500;
+  margin: 0 0 20px;
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+/* List and links */
+.columns.columns7 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columns.columns7 li {
+  margin-bottom: 10px;
+}
+
+.columns.columns7 li:last-child {
+  margin-bottom: 0;
+}
+
+.columns.columns7 a {
+  color: #222;
+  font-size: 15px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.columns.columns7 a:hover,
+.columns.columns7 a:focus {
+  text-decoration: underline;
+}
+
+/* Add vertical space between links and icons */
+.columns.columns7 > div > div:nth-child(1) ul {
+  margin-bottom: 32px;
+}
+
+/* SOCIAL ICONS: restore branding/color (no filter), uniform sizing, visually centered */
+.columns.columns7 > div > div:nth-child(3) p {
+  margin: 0;
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.columns.columns7 > div > div:nth-child(3) p a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-indent: -9999px;
+  overflow: hidden;
+  background-color: transparent;
+  background-size: 24px 24px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+
+  /* filter: none; -- REMOVED! Allow original icon styles to show */
+}
+
+/* Facebook */
+.columns.columns7 > div > div:nth-child(3) p a:nth-child(1) {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
+}
+
+/* Instagram */
+.columns.columns7 > div > div:nth-child(3) p a:nth-child(2) {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
+}
+
+/* YouTube */
+.columns.columns7 > div > div:nth-child(3) p a:nth-child(3) {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg');
+}
+
+/* X/Twitter */
+.columns.columns7 > div > div:nth-child(3) p a:nth-child(4) {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg');
+}
+
+/* LinkedIn */
+.columns.columns7 > div > div:nth-child(3) p a:nth-child(5) {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png');
+}
+
+/* Responsive: stack columns, center icons on small screens */
+@media (width <= 900px) {
+  .columns.columns7 > div {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    max-width: 100%;
+    padding: 0 16px;
+  }
+
+  .columns.columns7 > div > div:nth-child(1),
+  .columns.columns7 > div > div:nth-child(2) {
+    grid-column: 1;
+    grid-row: auto;
+    margin-bottom: 24px;
+    align-items: flex-start;
+  }
+
+  .columns.columns7 > div > div:nth-child(3) {
+    grid-column: 1;
+    grid-row: auto;
+    margin-top: 24px;
+    justify-content: center;
+    gap: 18px;
+  }
+}
+
+/* Optional: improve focus outline for accessibility */
+.columns.columns7 a:focus {
+  outline: 2px solid #222;
+  outline-offset: 2px;
 }
