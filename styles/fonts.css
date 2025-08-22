@@ -1,52 +1,25 @@
 
 @font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-300-normal.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-700-normal.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-500-normal.woff2') format('woff2');
+  font-family: Roboto;      
+  src: url('../fonts/roboto-500-normal.woff2') format('woff2');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0-10FFFF;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-300-normal.woff2') format('woff2');
-  font-weight: 300;
+  font-family: Roboto;      
+  src: url('../fonts/roboto-400-normal.woff2') format('woff2');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+0-10FFFF;
+  unicode-range: U+0-FF, U+131, U+152-153, U+2BB-2BC, U+2C6, U+2DA, U+2DC, U+304, U+308, U+329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
 @font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-700-normal.woff2') format('woff2');
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-  unicode-range: U+0-10FFFF;
-}
-
-@font-face {
-  font-family: "bmw_next_icons";      
-  src: url('../fonts/bmw-next-icons-400-normal.woff2') format('woff2');
+  font-family: Imago;      
+  src: url('../fonts/imago-400-normal.woff2') format('woff2');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
@@ -54,19 +27,19 @@
 }
 
 @font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-300-normal.woff2') format('woff2');
-  font-weight: 300;
-  font-style: normal;
+  font-family: Minion;      
+  src: url('../fonts/minion-700-italic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
   font-display: swap;
   unicode-range: U+0-10FFFF;
 }
 
 @font-face {
-  font-family: bmwtypenextweb;      
-  src: url('../fonts/bmwtypenextweb-700-normal.woff2') format('woff2');
-  font-weight: 700;
+  font-family: Imago;      
+  src: url('../fonts/imago-500-normal.woff2') format('woff2');
+  font-weight: 500;
   font-style: normal;
   font-display: swap;
-  unicode-range: U+100-17F, U+180-24F;
+  unicode-range: U+0-10FFFF;
 }
