@@ -1,3 +1,446 @@
 {
-  "templates": []
+  "templates": [
+    {
+      "name": "News Portal Template",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/testez-vos-connaissances/",
+          "uuid": "931a8404d8ba1f102d39200a9875ec74e02d2b86"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/contact/",
+          "uuid": "f076d3a33bb2b416df6f37128193eaca8008b8eb"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/les-associations/",
+          "uuid": "960fa4afacd9fb0c4ee9bb015e216a79d7cf6e9f"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/objectif-remission/",
+          "uuid": "283b5bb8e8f6c136cb42967ae1a63c571b477adc"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/traitements-de-fond/",
+          "uuid": "a1cb4754f30bdf1adecefd27fbbe209b550dbb55"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/traitements-de-la-sep/",
+          "uuid": "bce0c48a8c8ddc8491a78ae65bb3a86dc9880ee6"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/traitements-des-poussees/",
+          "uuid": "eb26e85b62c4b9616142014c6750c115dcc47507"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/le-suivi-radiologique/",
+          "uuid": "7d3069e378b03758d5c4a0cad0365c1de6276b5b"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/le-suivi-medical/",
+          "uuid": "2838adb720e905beb8f8a2a5c339c373d1c079b6"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/les-differentes-formes-de-sep/",
+          "uuid": "0ca125c12534f56b6fbc200653c7d08834a7c4ab"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/traitements-symptomatiques/",
+          "uuid": "ab5ea58850386d987122f42a53ce9968a8356df4"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/la-maladie/",
+          "uuid": "3ade1d7ac949f22762ffb06e13dfd5da7d45484f"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/choisir-metier-adapter-poste-ou-changer/",
+          "uuid": "01f0e09a4478122ee9fbedd0b88b8a28df348c4a"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/les-autres-symptomes-de-la-sep/",
+          "uuid": "128907c7c2b314ad0526613f7ba04f5b770b3cb5"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/en-cas-de-poussee/",
+          "uuid": "9f676dcc081c193237e7f779937160a2daafa14e"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-mes-droits-et-mes-demarches/",
+          "uuid": "ad054697407fc4987e1029c8a447fdadd1f8360a"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-evolution-differentes-formes-cliniques/",
+          "uuid": "d07a5005f47f3bb975c0aa82e4a00ee728ae965c"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sauto-evaluer/",
+          "uuid": "6566b2850dcf6c4092755dc0e20377352801515b"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-et-nature-hyperactivite/",
+          "uuid": "6ca8727cb9ec15f4d30359b57dfe6739f7ca4b19"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/projet-ambition-autonomie/",
+          "uuid": "0504875bd3251319bda638140ae8a85258d88050"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/les-symptomes-dune-poussee/",
+          "uuid": "0eb1cc04b0a470b869e78abb62eab61f1cfcbbb0"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/voyager-sclerose-en-plaques-guide/",
+          "uuid": "2af0ca1e91036377e9e23231a30f1e583a5ec459"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-quelles-aides-pour-les-aidants/",
+          "uuid": "5d12320c9d7c32068b3129e19bf613ad26a1ce99"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-nmosd-comprendre-maladies-inflammatoires/",
+          "uuid": "b1dd98c575795e8b02dec87ded6812086cac40ef"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/sep-puis-je-transmettre-la-maladie-a-mon-enfant/",
+          "uuid": "e14e502ae32377547cea4ee4b0f032464c7a6241"
+        }
+      ]
+    },
+    {
+      "name": "'Profile Listing'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-trek-elles-marchent/",
+          "uuid": "fd2da5494e8967616158a6a30d9eca28b13f2679"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/et-vivre-encore-le-livre-de-pierre/",
+          "uuid": "ce009cf264645a5ed17b33801c89a2a478761e1d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-one-woman-show-spectacle-de-malaade-danne-alexandrine/",
+          "uuid": "e3c0ac7c7333e75b5d95a0501082b0dc00bf5115"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-david-noel-spartan-race/",
+          "uuid": "46cd3cf2fcc797b6a27a9920c6dd616bfd2b2d5a"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-ludovic-clavaud/",
+          "uuid": "669e6fd443b04c997a4b5815e2ad3ba4614e28f1"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-david-berty/",
+          "uuid": "cb846654921e8a9b5b2fa85d0e01fee984435c22"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-catherine-lienhardt/",
+          "uuid": "4681ba7bb0b875cef1bcfc1ffbc6efbbb9b93803"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-bertrand-lequitation-pour-tous/",
+          "uuid": "251f0c36249e5d34fab0ef088d8e47024d09888d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-danne-lafond-criquet/",
+          "uuid": "911961ba2b21850e3ec5933f9fd197595b1210b2"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-marjolaine/",
+          "uuid": "2b6d32dfeee3134aa4969ab323a386850eeef9c0"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/amandine-pouvez-vous-vous-presenter-et-nous-raconter-votre-histoire/",
+          "uuid": "5c32a4e811b8c7f3fe142a93945a2375788a6708"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-dalban-jaillais-sep-a-la-voile/",
+          "uuid": "d1ec499073d4dfbdda0efc3d88dd8806be630b7d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-gaelle-soigner-par-la-danse/",
+          "uuid": "5802053983224e622793d85eb2586a84f6e51274"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-veronique-retour-sur-les-devants-de-la-scene/",
+          "uuid": "a58689924f7e853f275e88e58b087af4ee2ba5e9"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-patricia-condette/",
+          "uuid": "bbbb283f0a3cf151cdf294d0e1c64932e6e5cc68"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-marine-schaeffer/",
+          "uuid": "8dbcfa19c28f8213d9482df3af156ff43bf80257"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-delsa-voyager-en-velo/",
+          "uuid": "04352b9778c95e7f769a95e04f390ebf686b99a9"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-veronique/",
+          "uuid": "466a488c4f3aaeaf1f91c50e98428673b38485c5"
+        }
+      ]
+    },
+    {
+      "name": "'Portfolio Grid'",
+      "cluster": 3,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-et-travail-se-proteger-de-limpact-de-la-fatigue-au-quotidien/",
+          "uuid": "7cbe0f08e23143f5ef53d2e00d1477330e67597c"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/le-temps-partiel-therapeutique/",
+          "uuid": "feade787c04811e4a2eb2252514a66ef65eeab78"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-et-sexualite/",
+          "uuid": "5928eb3131eccb0004d87835bb722ad235d6b0ba"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/cest-la-rentree-faites-du-sport-pour-combattre-la-sep/",
+          "uuid": "5d0f1d522f772468dd327433a8d2e4c746eba028"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-mes-droits/",
+          "uuid": "9d0c1df261f6aca0eb92a0b7ccc125b79f683fa6"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-les-cles-face-a-lisolement/",
+          "uuid": "da09ea60792378b53979e3c0925e5400fa25dc8f"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-tout-savoir-sur-le-suivi-en-orthophonie/",
+          "uuid": "02b3a26a25169ce203c93a635fc3f96cd0838e3a"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/la-reconnaissance-de-qualite-de-travailleur-handicape-rqth/",
+          "uuid": "9f1eb30e298515fe1c95494fff607927684e1013"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/la-reeducation-physique-dans-la-sep-actualites-et-conseils/",
+          "uuid": "815ebcdaa6f42780a6020b1fb887eeccfce21e24"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/le-bilan-urodynamique-sous-hypnose/",
+          "uuid": "890754ba6b618eb4124820c37f204a415b54ee16"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/dans-le-cadre-dune-irm-faut-il-craindre-les-injections-repetees-de-gadolinium/",
+          "uuid": "adef52cc1877d1878920eae14d562dd293666f56"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/troubles-sexuels-et-sclerose-en-plaques/",
+          "uuid": "199bcf2e477b71f43300e0aff613f93c31301df4"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quels-sont-les-facteurs-de-pronostic-de-la-sclerose-en-plaques/",
+          "uuid": "4092c400ad1e8081f25ca4309d458df30b871dfd"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/comment-bien-sorganiser-entre-etudes-et-sep/",
+          "uuid": "c264542f8e802a237026bebb3d209fdfc0422b3d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/fatigue-douleur-energie-quels-effets-complementaires-des-medecines-douces-sur-votre-sep/",
+          "uuid": "f86f59f317216636cbae3432c0c8050fb745a867"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-devenez-expert-sur-le-conge-proche-aidant/",
+          "uuid": "b59518aba367921471c0545ead9a228a2f4e2ef7"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sep-les-allies-pour-booster-vos-ressources-cognitives/",
+          "uuid": "f5f8d14b0d0d49c588b08ff1b288418727608222"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/conseils-et-astuces-en-sophrologie/",
+          "uuid": "17462696bf62913b6029c95c1ddade2a76343c63"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/avec-une-sclerose-en-plaques-quelles-sont-les-recommandations-pour-un-accouchement/",
+          "uuid": "715043b2d6af4b2e055bbdb85ee7289fb72cc7c9"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/avec-une-sclerose-en-plaques-peut-on-allaiter-apres-sa-grossesse/",
+          "uuid": "c202bbde241a357ef3bb4cd96d653848da65b819"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/autoreeducation-a-domicile/",
+          "uuid": "3f9597ee5342c59e94ea7b3aa7358559142c9b21"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/activite-sportive-et-sclerose-en-plaques/",
+          "uuid": "703d9cecfd6f406790700422aaaa62d79bc2a97e"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/leducation-therapeutique-dans-la-sep/",
+          "uuid": "4a564a49b64a8220d770d4cbbe941294637e5f4c"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/les-douleurs-dans-la-sep/",
+          "uuid": "e1ed37fd76c5843d18784462855dbcabe236fd1d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/la-sclerose-en-plaques-est-elle-transmissible-a-ses-enfants/",
+          "uuid": "0c812a82defe9704b778153f07eabe61bab04f66"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/la-sep-hereditaire-ou-genetique/",
+          "uuid": "2de1cc5a3cd1544a580ef46643a2a7ad9ce283a3"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/microbiote-et-regime-alimentaire-adapte/",
+          "uuid": "edc4144466ee6c89ae2a618d1599b55b14171daa"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/en-quoi-consiste-leducation-therapeutique-du-patient-etp/",
+          "uuid": "5e169df79ebce41866dcc4655f7646e97242ffe7"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/comment-se-lancer-dans-un-projet-de-grossesse-avec-une-sclerose-en-plaques/",
+          "uuid": "767386e2879e352360bd7774ba05c0603f89afcc"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/evoquer-la-maladie-au-sein-du-couple/",
+          "uuid": "de97021386f76489030580d466a300c7b73e9f56"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/cephalees-et-migraines/",
+          "uuid": "f2a8f71caf43843942946d99dbdc54c63ce4e0a5"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/gerer-la-fatigue/",
+          "uuid": "b241120aacefe04baed4d69a870c770586f7779c"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/hypnose-medicale-et-sep/",
+          "uuid": "56d9b7c9864d484605435b2af74adabf00207f64"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/voyage-en-zone-tropicale-quelles-precautions-prendre-avec-la-sep/",
+          "uuid": "962e1a2e5c918d65ee5913fbd77ec3a0e4070a08"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sophrologie-et-sep/",
+          "uuid": "95de68432f7577b97ae640239a0bbfccb4f97fd2"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sport-et-risque-de-poussee/",
+          "uuid": "0c2892c0e0acdfb0ddf6add8f5b27d8e65a08930"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/traumatismes-et-sclerose-en-plaques/",
+          "uuid": "032395af49d4592adbb11ec1849cdef2740bc0ab"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/sevrage-tabagique/",
+          "uuid": "8bd792914fdd1691b86342df980601e0eea1fae9"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/une-seance-de-sophrologie-en-images/",
+          "uuid": "1c357831624fb09572c299952b88c700df084cf2"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/usage-therapeutique-du-cannabis/",
+          "uuid": "b4bca3466f1fcedbcb404853e817d630a565e2b9"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/voyage-en-zone-tropicale-et-vaccinations/",
+          "uuid": "7ad7aff2ce32c60ce96ff00dc03b0ef61e91f2ef"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/retentissement-sexuel-de-la-sep-sclerose-en-plaques-en-parler/",
+          "uuid": "5b312b78b21150307fa2a7ce01baa58c23f2fbe2"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-quune-irm-de-suivi-et-en-quoi-cela-consiste-t-il/",
+          "uuid": "e54eabf771b407d8cfe4039ceb28453995dae4d8"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-lhypnose/",
+          "uuid": "59a9bb9ef6e3738743f2740617532ecac90e8b36"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-la-sophrologie/",
+          "uuid": "0cb8d73a35bcccb5b57c866d3bd5662765bece60"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-la-prestation-de-compensation-du-handicap-pch/",
+          "uuid": "33044a9069cee034cb2959ca0c846c4850319257"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quelles-sont-les-precautions-a-prendre-pour-realiser-une-irm/",
+          "uuid": "f6e28ac43f08c0fb3e0d584c78ed4e88cbcbe696"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/se-faire-operer-quand-on-a-une-sep/",
+          "uuid": "86e426cfbed2def2df4ad8e4186dad997aa8432d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/quand-commencer-la-sophrologie/",
+          "uuid": "54ada957fcaee23d786edc3dd7ef8cc905031abb"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/parler-de-la-maladie-avec-ses-enfants/",
+          "uuid": "0f6c6f372955d9bec59b49c881cd044baf3e4c47"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/pratiquer-une-activite-physique-malgre-la-fatigue/",
+          "uuid": "95f59faeffc09ec1cddef1d370ed1c44c564e95d"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/les-troubles-urinaires-dans-la-sclerose-en-plaques-sep/",
+          "uuid": "33ee77e5790cbc7107995e1b9fbc6e46c59370b2"
+        },
+        {
+          "url": "https://www.lumieresurlasep.fr/conseils/pratiquer-une-activite-physique-mode-demploi/",
+          "uuid": "eb0f89941c122e8b610b2b6ba4f8f82821152958"
+        }
+      ]
+    },
+    {
+      "name": "'Grid Listing Page'",
+      "cluster": 4,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/",
+          "uuid": "48d47c800d1cff4cd7b348053c0d76ca3d3389e2"
+        }
+      ]
+    },
+    {
+      "name": "Dashboard Template",
+      "cluster": 5,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/athletessepduquotidien/",
+          "uuid": "1e9b74410a140bf5ad36ebd7ff1e7f262a24f626"
+        }
+      ]
+    },
+    {
+      "name": "Informational Page",
+      "cluster": 6,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/campagne-sep-nmo/",
+          "uuid": "499805749175f0ed4d529d4ea7a2271ab1c4431d"
+        }
+      ]
+    },
+    {
+      "name": "'Landing Page'",
+      "cluster": 7,
+      "pages": [
+        {
+          "url": "https://www.lumieresurlasep.fr/privacy-policy/",
+          "uuid": "5f83b36548fca87794a2eb64f43716bda41004f6"
+        }
+      ]
+    }
+  ]
 }
