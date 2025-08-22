@@ -1,29 +1,620 @@
 {
-  "originUrl": "https://int.metafox.bmw.com",
+  "originUrl": "https://www.lumieresurlasep.fr",
   "aborted": false,
-  "lastCrawled": "https://int.metafox.bmw.com/sr/",
+  "lastCrawled": "https://www.lumieresurlasep.fr/",
   "urls": [
     {
-      "url": "https://int.metafox.bmw.com/sr/",
-      "source": "CRAWL",
-      "targetPath": "/sr",
-      "id": "326d27e853724d219d25fbfa998145f20a40505e"
+      "url": "https://www.lumieresurlasep.fr/",
+      "source": "SITEMAPS",
+      "targetPath": "/",
+      "id": "48d47c800d1cff4cd7b348053c0d76ca3d3389e2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/athletessepduquotidien/",
+      "source": "SITEMAPS",
+      "targetPath": "/athletessepduquotidien",
+      "id": "1e9b74410a140bf5ad36ebd7ff1e7f262a24f626"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/campagne-sep-nmo/",
+      "source": "SITEMAPS",
+      "targetPath": "/campagne-sep-nmo",
+      "id": "499805749175f0ed4d529d4ea7a2271ab1c4431d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/choisir-metier-adapter-poste-ou-changer/",
+      "source": "SITEMAPS",
+      "targetPath": "/choisir-metier-adapter-poste-ou-changer",
+      "id": "01f0e09a4478122ee9fbedd0b88b8a28df348c4a"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/activite-sportive-et-sclerose-en-plaques/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/activite-sportive-et-sclerose-en-plaques",
+      "id": "703d9cecfd6f406790700422aaaa62d79bc2a97e"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/autoreeducation-a-domicile/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/autoreeducation-a-domicile",
+      "id": "3f9597ee5342c59e94ea7b3aa7358559142c9b21"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/avec-une-sclerose-en-plaques-peut-on-allaiter-apres-sa-grossesse/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/avec-une-sclerose-en-plaques-peut-on-allaiter-apres-sa-grossesse",
+      "id": "c202bbde241a357ef3bb4cd96d653848da65b819"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/avec-une-sclerose-en-plaques-quelles-sont-les-recommandations-pour-un-accouchement/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/avec-une-sclerose-en-plaques-quelles-sont-les-recommandations-pour-un-accouchement",
+      "id": "715043b2d6af4b2e055bbdb85ee7289fb72cc7c9"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/cephalees-et-migraines/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/cephalees-et-migraines",
+      "id": "f2a8f71caf43843942946d99dbdc54c63ce4e0a5"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/cest-la-rentree-faites-du-sport-pour-combattre-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/cest-la-rentree-faites-du-sport-pour-combattre-la-sep",
+      "id": "5d0f1d522f772468dd327433a8d2e4c746eba028"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/comment-bien-sorganiser-entre-etudes-et-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/comment-bien-sorganiser-entre-etudes-et-sep",
+      "id": "c264542f8e802a237026bebb3d209fdfc0422b3d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/comment-se-lancer-dans-un-projet-de-grossesse-avec-une-sclerose-en-plaques/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/comment-se-lancer-dans-un-projet-de-grossesse-avec-une-sclerose-en-plaques",
+      "id": "767386e2879e352360bd7774ba05c0603f89afcc"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/conseils-et-astuces-en-sophrologie/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/conseils-et-astuces-en-sophrologie",
+      "id": "17462696bf62913b6029c95c1ddade2a76343c63"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/dans-le-cadre-dune-irm-faut-il-craindre-les-injections-repetees-de-gadolinium/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/dans-le-cadre-dune-irm-faut-il-craindre-les-injections-repetees-de-gadolinium",
+      "id": "adef52cc1877d1878920eae14d562dd293666f56"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/en-quoi-consiste-leducation-therapeutique-du-patient-etp/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/en-quoi-consiste-leducation-therapeutique-du-patient-etp",
+      "id": "5e169df79ebce41866dcc4655f7646e97242ffe7"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/evoquer-la-maladie-au-sein-du-couple/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/evoquer-la-maladie-au-sein-du-couple",
+      "id": "de97021386f76489030580d466a300c7b73e9f56"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/fatigue-douleur-energie-quels-effets-complementaires-des-medecines-douces-sur-votre-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/fatigue-douleur-energie-quels-effets-complementaires-des-medecines-douces-sur-votre-sep",
+      "id": "f86f59f317216636cbae3432c0c8050fb745a867"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/gerer-la-fatigue/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/gerer-la-fatigue",
+      "id": "b241120aacefe04baed4d69a870c770586f7779c"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/hypnose-medicale-et-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/hypnose-medicale-et-sep",
+      "id": "56d9b7c9864d484605435b2af74adabf00207f64"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/la-reconnaissance-de-qualite-de-travailleur-handicape-rqth/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/la-reconnaissance-de-qualite-de-travailleur-handicape-rqth",
+      "id": "9f1eb30e298515fe1c95494fff607927684e1013"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/la-reeducation-physique-dans-la-sep-actualites-et-conseils/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/la-reeducation-physique-dans-la-sep-actualites-et-conseils",
+      "id": "815ebcdaa6f42780a6020b1fb887eeccfce21e24"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/la-sclerose-en-plaques-est-elle-transmissible-a-ses-enfants/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/la-sclerose-en-plaques-est-elle-transmissible-a-ses-enfants",
+      "id": "0c812a82defe9704b778153f07eabe61bab04f66"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/la-sep-hereditaire-ou-genetique/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/la-sep-hereditaire-ou-genetique",
+      "id": "2de1cc5a3cd1544a580ef46643a2a7ad9ce283a3"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/le-bilan-urodynamique-sous-hypnose/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/le-bilan-urodynamique-sous-hypnose",
+      "id": "890754ba6b618eb4124820c37f204a415b54ee16"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/le-temps-partiel-therapeutique/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/le-temps-partiel-therapeutique",
+      "id": "feade787c04811e4a2eb2252514a66ef65eeab78"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/leducation-therapeutique-dans-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/leducation-therapeutique-dans-la-sep",
+      "id": "4a564a49b64a8220d770d4cbbe941294637e5f4c"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/les-douleurs-dans-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/les-douleurs-dans-la-sep",
+      "id": "e1ed37fd76c5843d18784462855dbcabe236fd1d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/les-troubles-urinaires-dans-la-sclerose-en-plaques-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/les-troubles-urinaires-dans-la-sclerose-en-plaques-sep",
+      "id": "33ee77e5790cbc7107995e1b9fbc6e46c59370b2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/microbiote-et-regime-alimentaire-adapte/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/microbiote-et-regime-alimentaire-adapte",
+      "id": "edc4144466ee6c89ae2a618d1599b55b14171daa"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/parler-de-la-maladie-avec-ses-enfants/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/parler-de-la-maladie-avec-ses-enfants",
+      "id": "0f6c6f372955d9bec59b49c881cd044baf3e4c47"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/pratiquer-une-activite-physique-malgre-la-fatigue/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/pratiquer-une-activite-physique-malgre-la-fatigue",
+      "id": "95f59faeffc09ec1cddef1d370ed1c44c564e95d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/pratiquer-une-activite-physique-mode-demploi/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/pratiquer-une-activite-physique-mode-demploi",
+      "id": "eb0f89941c122e8b610b2b6ba4f8f82821152958"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quand-commencer-la-sophrologie/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quand-commencer-la-sophrologie",
+      "id": "54ada957fcaee23d786edc3dd7ef8cc905031abb"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quelles-sont-les-precautions-a-prendre-pour-realiser-une-irm/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quelles-sont-les-precautions-a-prendre-pour-realiser-une-irm",
+      "id": "f6e28ac43f08c0fb3e0d584c78ed4e88cbcbe696"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quels-sont-les-facteurs-de-pronostic-de-la-sclerose-en-plaques/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quels-sont-les-facteurs-de-pronostic-de-la-sclerose-en-plaques",
+      "id": "4092c400ad1e8081f25ca4309d458df30b871dfd"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-la-prestation-de-compensation-du-handicap-pch/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quest-ce-que-la-prestation-de-compensation-du-handicap-pch",
+      "id": "33044a9069cee034cb2959ca0c846c4850319257"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-la-sophrologie/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quest-ce-que-la-sophrologie",
+      "id": "0cb8d73a35bcccb5b57c866d3bd5662765bece60"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-que-lhypnose/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quest-ce-que-lhypnose",
+      "id": "59a9bb9ef6e3738743f2740617532ecac90e8b36"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/quest-ce-quune-irm-de-suivi-et-en-quoi-cela-consiste-t-il/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/quest-ce-quune-irm-de-suivi-et-en-quoi-cela-consiste-t-il",
+      "id": "e54eabf771b407d8cfe4039ceb28453995dae4d8"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/retentissement-sexuel-de-la-sep-sclerose-en-plaques-en-parler/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/retentissement-sexuel-de-la-sep-sclerose-en-plaques-en-parler",
+      "id": "5b312b78b21150307fa2a7ce01baa58c23f2fbe2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/se-faire-operer-quand-on-a-une-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/se-faire-operer-quand-on-a-une-sep",
+      "id": "86e426cfbed2def2df4ad8e4186dad997aa8432d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-devenez-expert-sur-le-conge-proche-aidant/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-devenez-expert-sur-le-conge-proche-aidant",
+      "id": "b59518aba367921471c0545ead9a228a2f4e2ef7"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-et-sexualite/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-et-sexualite",
+      "id": "5928eb3131eccb0004d87835bb722ad235d6b0ba"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-et-travail-se-proteger-de-limpact-de-la-fatigue-au-quotidien/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-et-travail-se-proteger-de-limpact-de-la-fatigue-au-quotidien",
+      "id": "7cbe0f08e23143f5ef53d2e00d1477330e67597c"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-les-allies-pour-booster-vos-ressources-cognitives/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-les-allies-pour-booster-vos-ressources-cognitives",
+      "id": "f5f8d14b0d0d49c588b08ff1b288418727608222"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-les-cles-face-a-lisolement/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-les-cles-face-a-lisolement",
+      "id": "da09ea60792378b53979e3c0925e5400fa25dc8f"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-mes-droits/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-mes-droits",
+      "id": "9d0c1df261f6aca0eb92a0b7ccc125b79f683fa6"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sep-tout-savoir-sur-le-suivi-en-orthophonie/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sep-tout-savoir-sur-le-suivi-en-orthophonie",
+      "id": "02b3a26a25169ce203c93a635fc3f96cd0838e3a"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sevrage-tabagique/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sevrage-tabagique",
+      "id": "8bd792914fdd1691b86342df980601e0eea1fae9"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sophrologie-et-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sophrologie-et-sep",
+      "id": "95de68432f7577b97ae640239a0bbfccb4f97fd2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/sport-et-risque-de-poussee/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/sport-et-risque-de-poussee",
+      "id": "0c2892c0e0acdfb0ddf6add8f5b27d8e65a08930"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/traumatismes-et-sclerose-en-plaques/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/traumatismes-et-sclerose-en-plaques",
+      "id": "032395af49d4592adbb11ec1849cdef2740bc0ab"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/troubles-sexuels-et-sclerose-en-plaques/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/troubles-sexuels-et-sclerose-en-plaques",
+      "id": "199bcf2e477b71f43300e0aff613f93c31301df4"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/une-seance-de-sophrologie-en-images/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/une-seance-de-sophrologie-en-images",
+      "id": "1c357831624fb09572c299952b88c700df084cf2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/usage-therapeutique-du-cannabis/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/usage-therapeutique-du-cannabis",
+      "id": "b4bca3466f1fcedbcb404853e817d630a565e2b9"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/voyage-en-zone-tropicale-et-vaccinations/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/voyage-en-zone-tropicale-et-vaccinations",
+      "id": "7ad7aff2ce32c60ce96ff00dc03b0ef61e91f2ef"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/conseils/voyage-en-zone-tropicale-quelles-precautions-prendre-avec-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/conseils/voyage-en-zone-tropicale-quelles-precautions-prendre-avec-la-sep",
+      "id": "962e1a2e5c918d65ee5913fbd77ec3a0e4070a08"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/contact/",
+      "source": "SITEMAPS",
+      "targetPath": "/contact",
+      "id": "f076d3a33bb2b416df6f37128193eaca8008b8eb"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/en-cas-de-poussee/",
+      "source": "SITEMAPS",
+      "targetPath": "/en-cas-de-poussee",
+      "id": "9f676dcc081c193237e7f779937160a2daafa14e"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/la-maladie/",
+      "source": "SITEMAPS",
+      "targetPath": "/la-maladie",
+      "id": "3ade1d7ac949f22762ffb06e13dfd5da7d45484f"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/le-suivi-medical/",
+      "source": "SITEMAPS",
+      "targetPath": "/le-suivi-medical",
+      "id": "2838adb720e905beb8f8a2a5c339c373d1c079b6"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/le-suivi-radiologique/",
+      "source": "SITEMAPS",
+      "targetPath": "/le-suivi-radiologique",
+      "id": "7d3069e378b03758d5c4a0cad0365c1de6276b5b"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/les-associations/",
+      "source": "SITEMAPS",
+      "targetPath": "/les-associations",
+      "id": "960fa4afacd9fb0c4ee9bb015e216a79d7cf6e9f"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/les-autres-symptomes-de-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/les-autres-symptomes-de-la-sep",
+      "id": "128907c7c2b314ad0526613f7ba04f5b770b3cb5"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/les-differentes-formes-de-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/les-differentes-formes-de-sep",
+      "id": "0ca125c12534f56b6fbc200653c7d08834a7c4ab"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/les-symptomes-dune-poussee/",
+      "source": "SITEMAPS",
+      "targetPath": "/les-symptomes-dune-poussee",
+      "id": "0eb1cc04b0a470b869e78abb62eab61f1cfcbbb0"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/objectif-remission/",
+      "source": "SITEMAPS",
+      "targetPath": "/objectif-remission",
+      "id": "283b5bb8e8f6c136cb42967ae1a63c571b477adc"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/privacy-policy/",
+      "source": "SITEMAPS",
+      "targetPath": "/privacy-policy",
+      "id": "5f83b36548fca87794a2eb64f43716bda41004f6"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/projet-ambition-autonomie/",
+      "source": "SITEMAPS",
+      "targetPath": "/projet-ambition-autonomie",
+      "id": "0504875bd3251319bda638140ae8a85258d88050"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sauto-evaluer/",
+      "source": "SITEMAPS",
+      "targetPath": "/sauto-evaluer",
+      "id": "6566b2850dcf6c4092755dc0e20377352801515b"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-et-nature-hyperactivite/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-et-nature-hyperactivite",
+      "id": "6ca8727cb9ec15f4d30359b57dfe6739f7ca4b19"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-evolution-differentes-formes-cliniques/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-evolution-differentes-formes-cliniques",
+      "id": "d07a5005f47f3bb975c0aa82e4a00ee728ae965c"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-mes-droits-et-mes-demarches/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-mes-droits-et-mes-demarches",
+      "id": "ad054697407fc4987e1029c8a447fdadd1f8360a"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-nmosd-comprendre-maladies-inflammatoires/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-nmosd-comprendre-maladies-inflammatoires",
+      "id": "b1dd98c575795e8b02dec87ded6812086cac40ef"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-puis-je-transmettre-la-maladie-a-mon-enfant/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-puis-je-transmettre-la-maladie-a-mon-enfant",
+      "id": "e14e502ae32377547cea4ee4b0f032464c7a6241"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/sep-quelles-aides-pour-les-aidants/",
+      "source": "SITEMAPS",
+      "targetPath": "/sep-quelles-aides-pour-les-aidants",
+      "id": "5d12320c9d7c32068b3129e19bf613ad26a1ce99"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/amandine-pouvez-vous-vous-presenter-et-nous-raconter-votre-histoire/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/amandine-pouvez-vous-vous-presenter-et-nous-raconter-votre-histoire",
+      "id": "5c32a4e811b8c7f3fe142a93945a2375788a6708"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/et-vivre-encore-le-livre-de-pierre/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/et-vivre-encore-le-livre-de-pierre",
+      "id": "ce009cf264645a5ed17b33801c89a2a478761e1d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-dalban-jaillais-sep-a-la-voile/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-dalban-jaillais-sep-a-la-voile",
+      "id": "d1ec499073d4dfbdda0efc3d88dd8806be630b7d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-danne-lafond-criquet/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-danne-lafond-criquet",
+      "id": "911961ba2b21850e3ec5933f9fd197595b1210b2"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-bertrand-lequitation-pour-tous/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-bertrand-lequitation-pour-tous",
+      "id": "251f0c36249e5d34fab0ef088d8e47024d09888d"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-catherine-lienhardt/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-catherine-lienhardt",
+      "id": "4681ba7bb0b875cef1bcfc1ffbc6efbbb9b93803"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-david-berty/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-david-berty",
+      "id": "cb846654921e8a9b5b2fa85d0e01fee984435c22"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-david-noel-spartan-race/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-david-noel-spartan-race",
+      "id": "46cd3cf2fcc797b6a27a9920c6dd616bfd2b2d5a"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-gaelle-soigner-par-la-danse/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-gaelle-soigner-par-la-danse",
+      "id": "5802053983224e622793d85eb2586a84f6e51274"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-ludovic-clavaud/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-ludovic-clavaud",
+      "id": "669e6fd443b04c997a4b5815e2ad3ba4614e28f1"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-marine-schaeffer/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-marine-schaeffer",
+      "id": "8dbcfa19c28f8213d9482df3af156ff43bf80257"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-marjolaine/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-marjolaine",
+      "id": "2b6d32dfeee3134aa4969ab323a386850eeef9c0"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-patricia-condette/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-patricia-condette",
+      "id": "bbbb283f0a3cf151cdf294d0e1c64932e6e5cc68"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-veronique-retour-sur-les-devants-de-la-scene/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-veronique-retour-sur-les-devants-de-la-scene",
+      "id": "a58689924f7e853f275e88e58b087af4ee2ba5e9"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-de-veronique/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-de-veronique",
+      "id": "466a488c4f3aaeaf1f91c50e98428673b38485c5"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-delsa-voyager-en-velo/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-delsa-voyager-en-velo",
+      "id": "04352b9778c95e7f769a95e04f390ebf686b99a9"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-defi-trek-elles-marchent/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-defi-trek-elles-marchent",
+      "id": "fd2da5494e8967616158a6a30d9eca28b13f2679"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/temoignages/le-one-woman-show-spectacle-de-malaade-danne-alexandrine/",
+      "source": "SITEMAPS",
+      "targetPath": "/temoignages/le-one-woman-show-spectacle-de-malaade-danne-alexandrine",
+      "id": "e3c0ac7c7333e75b5d95a0501082b0dc00bf5115"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/testez-vos-connaissances/",
+      "source": "SITEMAPS",
+      "targetPath": "/testez-vos-connaissances",
+      "id": "931a8404d8ba1f102d39200a9875ec74e02d2b86"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/traitements-de-fond/",
+      "source": "SITEMAPS",
+      "targetPath": "/traitements-de-fond",
+      "id": "a1cb4754f30bdf1adecefd27fbbe209b550dbb55"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/traitements-de-la-sep/",
+      "source": "SITEMAPS",
+      "targetPath": "/traitements-de-la-sep",
+      "id": "bce0c48a8c8ddc8491a78ae65bb3a86dc9880ee6"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/traitements-des-poussees/",
+      "source": "SITEMAPS",
+      "targetPath": "/traitements-des-poussees",
+      "id": "eb26e85b62c4b9616142014c6750c115dcc47507"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/traitements-symptomatiques/",
+      "source": "SITEMAPS",
+      "targetPath": "/traitements-symptomatiques",
+      "id": "ab5ea58850386d987122f42a53ce9968a8356df4"
+    },
+    {
+      "url": "https://www.lumieresurlasep.fr/voyager-sclerose-en-plaques-guide/",
+      "source": "SITEMAPS",
+      "targetPath": "/voyager-sclerose-en-plaques-guide",
+      "id": "2af0ca1e91036377e9e23231a30f1e583a5ec459"
     }
   ],
   "crawlOptions": {
     "timeout": 64800000,
-    "inclusionPatterns": [
-      "/sr/",
-      "/sr/**"
-    ],
+    "inclusionPatterns": [],
     "exclusionPatterns": [],
     "limit": 100,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "crawl",
+    "strategy": "sitemaps",
     "logger": {},
     "strategiesAttempted": [
-      "CRAWL"
+      "SITEMAPS"
     ]
   },
   "extractionErrors": []
