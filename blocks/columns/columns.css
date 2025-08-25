@@ -188,7 +188,6 @@
   font-family: var(--body-font-family);
 }
 
-/* Main block: two columns side by side, socials below left column */
 .columns.columns7 > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -199,7 +198,6 @@
   align-items: start;
 }
 
-/* Left column */
 .columns.columns7 > div > div:nth-child(1) {
   grid-column: 1;
   grid-row: 1;
@@ -208,7 +206,6 @@
   align-items: flex-start;
 }
 
-/* Right column */
 .columns.columns7 > div > div:nth-child(2) {
   grid-column: 2;
   grid-row: 1;
@@ -217,7 +214,6 @@
   align-items: flex-start;
 }
 
-/* Social icons row: below left column, centered and compact */
 .columns.columns7 > div > div:nth-child(3) {
   grid-column: 1;
   grid-row: 2;
@@ -229,7 +225,6 @@
   gap: 24px;
 }
 
-/* Headings */
 .columns.columns7 h3 {
   font-size: 12px;
   color: #b3b3b3;
@@ -239,7 +234,6 @@
   text-transform: none;
 }
 
-/* List and links */
 .columns.columns7 ul {
   list-style: none;
   padding: 0;
@@ -267,12 +261,10 @@
   text-decoration: underline;
 }
 
-/* Add vertical space between links and icons */
 .columns.columns7 > div > div:nth-child(1) ul {
   margin-bottom: 32px;
 }
 
-/* SOCIAL ICONS: restore branding/color (no filter), uniform sizing, visually centered */
 .columns.columns7 > div > div:nth-child(3) p {
   margin: 0;
   display: flex;
@@ -293,36 +285,28 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 50%;
-
-  /* filter: none; -- REMOVED! Allow original icon styles to show */
 }
 
-/* Facebook */
 .columns.columns7 > div > div:nth-child(3) p a:nth-child(1) {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg');
 }
 
-/* Instagram */
 .columns.columns7 > div > div:nth-child(3) p a:nth-child(2) {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png');
 }
 
-/* YouTube */
 .columns.columns7 > div > div:nth-child(3) p a:nth-child(3) {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg');
 }
 
-/* X/Twitter */
 .columns.columns7 > div > div:nth-child(3) p a:nth-child(4) {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/5/53/X_logo_2023.svg');
 }
 
-/* LinkedIn */
 .columns.columns7 > div > div:nth-child(3) p a:nth-child(5) {
   background-image: url('https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png');
 }
 
-/* Responsive: stack columns, center icons on small screens */
 @media (width <= 900px) {
   .columns.columns7 > div {
     grid-template-columns: 1fr;
@@ -348,8 +332,204 @@
   }
 }
 
-/* Optional: improve focus outline for accessibility */
 .columns.columns7 a:focus {
   outline: 2px solid #222;
   outline-offset: 2px;
+}
+
+
+.columns.columns36 {
+  background: #FDFBF6;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Main row: left column (logo/branding) and right column (content) */
+.columns.columns36 > div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  min-height: 120px;
+  padding: 32px 40px;
+  box-sizing: border-box;
+  gap: 0;
+}
+
+/* Responsive: stack on smaller screens */
+@media (width <= 900px) {
+  .columns.columns36 > div {
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    padding: 24px 10px;
+    min-height: unset;
+    gap: 32px;
+  }
+}
+
+/* LEFT COLUMN: logo and branding vertical stack */
+.columns.columns36 > div > div:first-child {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 220px;
+  max-width: 320px;
+  flex-shrink: 0;
+  gap: 12px;
+  margin-right: 80px; /* More whitespace to right column */
+}
+
+/* Illustration sizing */
+.columns.columns36 .columns-img-col {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+.columns.columns36 .columns-img-col img,
+.columns.columns36 .columns-img-col picture {
+  max-width: 110px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* RIGHT COLUMN: horizontal layout of grouped content */
+.columns.columns36 > div > div:not(:first-child) {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: calc(100% - 320px);
+  gap: 36px;
+  position: relative;
+}
+
+/* Small text and magnifier block (grouped left in right column) */
+.columns.columns36 > div > div:not(:first-child) > p:first-child,
+.columns.columns36 > div > div:not(:first-child) > .columns-img-col {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  min-width: 160px;
+  max-width: 180px;
+  margin: 0;
+}
+
+/* Small text style */
+.columns.columns36 > div > div:not(:first-child) > p:first-child {
+  color: #454545;
+  font-size: var(--body-font-size-s);
+  font-weight: 400;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Magnifier image, if present */
+.columns.columns36 > div > div:not(:first-child) > .columns-img-col img {
+  max-width: 28px;
+  height: auto;
+  margin-left: 6px;
+}
+
+/* Tags/links block: more compact, with extra whitespace to Roche logo */
+.columns.columns36 > div > div:not(:first-child) > p:nth-child(2) {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 0 18px;
+  margin: 0;
+  max-width: 430px;
+  flex-basis: 430px;
+  line-height: 1.7;
+}
+
+.columns.columns36 > div > div:not(:first-child) > p:nth-child(2) a {
+  color: #2782A3;
+  font-size: 17px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 12px;
+  line-height: 1.7;
+  transition: color 0.15s;
+}
+
+.columns.columns36 > div > div:not(:first-child) > p:nth-child(2) a:hover,
+.columns.columns36 > div > div:not(:first-child) > p:nth-child(2) a:focus {
+  color: #1d3ecf;
+  text-decoration: underline;
+}
+
+/* Decorative line images */
+.columns.columns36 > div > div:not(:first-child) img[width="75"],
+.columns.columns36 > div > div:not(:first-child) img[width="71"] {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 80px;
+  height: auto;
+  margin-right: 8px;
+}
+
+/* Roche logo block: push far right, increase size, add more left margin */
+.columns.columns36 > div > div:not(:first-child) > p:last-child {
+  align-self: flex-start;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  min-width: 120px;
+  max-width: 150px;
+  margin-left: 90px;         /* MORE space before Roche logo */
+}
+
+/* Roche logo image */
+.columns.columns36 > div > div:not(:first-child) > p:last-child img {
+  display: block;
+  max-width: 135px;
+  height: auto;
+  margin: 0;
+}
+
+/* Responsive tweaks for tags/links and Roche logo */
+@media (width <= 900px) {
+  .columns.columns36 > div > div:first-child {
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .columns.columns36 > div > div:not(:first-child) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    max-width: 100%;
+  }
+
+  .columns.columns36 > div > div:not(:first-child) > p:nth-child(2) {
+    gap: 8px;
+    font-size: 16px;
+    justify-content: flex-start;
+    max-width: 100%;
+    flex-basis: auto;
+  }
+
+  .columns.columns36 > div > div:not(:first-child) > p:nth-child(2) a {
+    font-size: 15px;
+    margin-bottom: 6px;
+  }
+
+  .columns.columns36 > div > div:not(:first-child) > p:last-child {
+    align-items: flex-start;
+    max-width: 90px;
+    margin-left: 0;
+  }
 }
