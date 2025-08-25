@@ -57,9 +57,6 @@
   padding: 64px 0 48px;
 }
 
-/* Cards row: evenly spaced out, centered horizontally */
-
-/* Responsive: Stack vertically and center on small screens */
 @media (width <= 900px) {
   .cards > ul {
     flex-direction: column;
@@ -67,10 +64,6 @@
     align-items: center;
   }
 }
-
-/* Card: vertical stack, no border, no bg, align center */
-
-/* Icon/image wrapper: correct space above and below, center the image */
 
 .cards .cards-card-image img {
   width: 64px;
@@ -82,9 +75,6 @@
   margin: 0 auto;
 }
 
-/* Body: stack label and button, center */
-
-/* Label/title: correct size, weight, spacing, and alignment */
 .cards .cards-card-body p {
   font-size: 16px;
   font-family: var(--body-font-family);
@@ -96,12 +86,10 @@
   letter-spacing: 0.01em;
 }
 
-/* Remove extra margin for button container */
 .cards .cards-card-body p.button-container {
   margin-bottom: 0;
 }
 
-/* Button container: center horizontally */
 .cards .button-container {
   display: flex;
   justify-content: center;
@@ -109,7 +97,6 @@
   margin: 0;
 }
 
-/* Button: outlined, square corners, thinner border, correct sizing */
 .cards .button-container a.button.primary {
   font-size: 16px;
   font-family: var(--body-font-family);
@@ -127,10 +114,141 @@
   line-height: 1.6;
 }
 
-/* Button hover/focus: subtle background, darker text */
 .cards .button-container a.button.primary:hover,
 .cards .button-container a.button.primary:focus {
   background: #f5f5f5;
   color: #000;
   border-color: #000;
+}
+
+
+.cards.cards28 {
+  width: 100%;
+  padding: 0;
+  background: none;
+}
+
+/* Tighter grid: more compact like the reference */
+.cards.cards28 > ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 16px;
+  grid-auto-flow: row;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  place-items: stretch stretch;
+}
+
+/* Card containers: fill grid cell, fixed height, prevent overflow for even alignment */
+.cards.cards28 > ul > li {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgb(25 86 122 / 8%);
+  display: flex;
+  flex-direction: column;
+  min-height: 320px;
+  max-height: 320px;
+  height: 320px;
+  place-self: stretch stretch;
+  overflow: hidden;
+  transition: box-shadow 0.18s;
+}
+
+/* Card image: visible, fills width, correct aspect ratio, aligns to top */
+.cards.cards28 .cards-card-image {
+  width: 100%;
+  aspect-ratio: 4/3;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0;
+  background: transparent;
+  overflow: hidden;
+}
+
+.cards.cards28 .cards-card-image img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+  background: transparent;
+}
+
+/* Hide image area for the special survey card (6th item) */
+.cards.cards28 > ul > li:nth-child(6) .cards-card-image {
+  display: none;
+}
+
+/* Card body: tight top padding, compact vertical spacing */
+.cards.cards28 .cards-card-body {
+  flex: 1;
+  padding: 10px 14px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 4px;
+  text-align: left;
+  height: 100%;
+  overflow: hidden;
+}
+
+/* Category label: small, uppercase, subtle color, tight spacing */
+.cards.cards28 .cards-card-body p:first-child {
+  font-size: 0.8rem;
+  color: #A7A7A7;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 0 2px;
+  letter-spacing: 0.05em;
+  line-height: 1.1;
+}
+
+/* Card title: bold, brand blue, left-aligned, compact spacing */
+.cards.cards28 .cards-card-body h2 {
+  color: #19567A;
+  font-size: 1.04rem;
+  font-weight: bold;
+  margin: 0 0 2px;
+  line-height: 1.25;
+  font-family: var(--heading-font-family);
+  text-align: left;
+}
+
+/* Special survey card (6th): match height, scroll overflow if needed */
+.cards.cards28 > ul > li:nth-child(6) {
+  background: #19567A;
+  color: #fff;
+  min-height: 320px;
+  max-height: 320px;
+  height: 320px;
+  overflow-y: auto;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.cards.cards28 > ul > li:nth-child(6) .cards-card-body h2,
+.cards.cards28 > ul > li:nth-child(6) .cards-card-body p {
+  color: #fff;
+}
+
+/* Responsive columns for smaller screens */
+@media (width <= 1200px) {
+  .cards.cards28 > ul {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (width <= 800px) {
+  .cards.cards28 > ul {
+    grid-template-columns: 1fr;
+  }
+
+  .cards.cards28 > ul > li {
+    min-width: 0;
+    max-width: 100%;
+  }
 }
