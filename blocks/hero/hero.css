@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .hero-container .hero-wrapper {
   max-width: unset;
   padding: 0;
@@ -44,4 +45,230 @@
   .hero {
     padding: 40px 32px;
   }
+}
+
+.hero.hero2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center; /* Vertically center columns */
+  justify-content: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px;
+  min-height: 730px;
+  position: relative;
+  background: none;
+  gap: 64px; /* Balanced gap between columns */
+}
+
+/* Remove excess top space, ensure hero starts at top */
+.hero-container > .hero-wrapper {
+  max-width: unset;
+  padding: 0;
+  margin: 0;
+}
+
+/* Responsive layout: stack on mobile */
+@media (width <= 900px) {
+  .hero.hero2 {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 36px 4vw 28px;
+    min-height: unset;
+    gap: 0;
+  }
+}
+
+/* Left side - Illustration */
+.hero.hero2 > div:first-child {
+  flex: 0 1 360px;
+  min-width: 260px;
+  max-width: 380px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 0;
+  margin-left: -22px;
+  margin-bottom: 0;
+  z-index: 2;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 > div:first-child {
+    margin: 0 0 28px;
+    min-width: 0;
+    max-width: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+
+.hero.hero2 picture {
+  position: relative;
+  width: 100%;
+  max-width: 340px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 rgb(30 19 74 / 16%), 0 2px 8px 0 rgb(30 19 74 / 9%);
+  overflow: visible;
+  background: transparent;
+  margin-bottom: 0;
+}
+
+.hero.hero2 img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+/* Right side - Text content */
+.hero.hero2 > div:last-child {
+  flex: 1 1 530px;
+  max-width: 540px;
+  min-width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 2;
+  margin-bottom: 0;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 > div:last-child {
+    align-items: center;
+    padding: 0;
+    max-width: 100%;
+    min-width: 0;
+    margin-bottom: 0;
+  }
+}
+
+.hero.hero2 h3 {
+  margin: 0 0 44px;
+  color: #8b7bec;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 h3 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+
+.hero.hero2 h1 {
+  color: #191929;
+  font-size: 2.85em;
+  font-weight: 900;
+  line-height: 1.10;
+  margin: 0 0 28px;
+  text-align: left;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 h1 {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+}
+
+.hero.hero2 p:not(.button-container) {
+  color: #222;
+  font-size: 1.17em;
+  line-height: 1.62;
+  margin: 0 0 18px;
+  text-align: left;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 p:not(.button-container) {
+    text-align: center;
+    margin-bottom: 16px;
+  }
+}
+
+.hero.hero2 .button-container {
+  margin-top: 2px;
+  margin-bottom: 0;
+  width: 100%;
+  text-align: left;
+}
+
+@media (width <= 900px) {
+  .hero.hero2 .button-container {
+    text-align: center;
+    width: auto;
+    margin-top: 4px;
+  }
+}
+
+.hero-container > .hero-wrapper > .block.hero .button {
+  background: #1672f5;
+  color: #fff;
+  border-radius: 44px;
+  font-size: 1.23em;
+  font-weight: 700;
+  padding: 22px 68px;
+  margin: 0;
+  box-shadow: 0 4px 16px 0 rgb(22 114 245 / 20%);
+  border: none;
+  transition: background 0.15s;
+}
+
+.hero-container > .hero-wrapper > .block.hero .button:hover,
+.hero-container > .hero-wrapper > .block.hero .button:focus {
+  background: #005ad6;
+}
+
+/* Background grid overlay effect, sharper at top/left, fading to bottom/right */
+.hero.hero2::before {
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  background:
+    linear-gradient(135deg, #a68cff 0%, #efe1f7 60%, #faffc7 100%);
+}
+
+.hero.hero2::after {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  z-index: 1;
+  opacity: 0.44;
+  background:
+    repeating-linear-gradient(
+      to right,
+      #fff 0,
+      #fff 1.5px,
+      transparent 1.5px,
+      transparent 36px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #fff 0,
+      #fff 1.5px,
+      transparent 1.5px,
+      transparent 36px
+    );
+  mask-image: linear-gradient(to bottom right, rgb(255 255 255 / 100%) 0%, rgb(255 255 255 / 27%) 65%, rgb(255 255 255 / 0%) 100%);
+  mix-blend-mode: lighten;
+}
+
+/* Layer content above backgrounds/grid */
+.hero.hero2 > div,
+.hero.hero2 > div > div {
+  position: relative;
+  z-index: 2;
 }
