@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .carousel .carousel-slides-container {
   position: relative;
 }
@@ -99,7 +100,6 @@
   z-index: 1;
 }
 
-/* stylelint-disable-next-line no-descending-specificity */
 .carousel .carousel-navigation-buttons button {
   position: relative;
   width: 44px;
@@ -150,4 +150,17 @@
   .carousel .carousel-slide .carousel-slide-content[data-align='justify'] {
     --slide-content-width: auto;
   }
+}
+
+
+.carousel.carousel5 {
+  background: white;
+}
+
+.carousel.carousel5 .carousel-slide,
+.carousel.carousel5 .carousel-slide-content,
+.carousel.carousel5 .carousel-slide-image,
+.carousel.carousel5 .carousel-navigation-buttons,
+.carousel.carousel5 .carousel-slide-indicators {
+  display: none;
 }
