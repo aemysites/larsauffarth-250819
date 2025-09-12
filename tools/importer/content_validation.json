@@ -1,0 +1,1046 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-00-835274ec06aa0929a882546dd82e781d97ccca8e",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 387,
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-14-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "header",
+      "cluster": 1,
+      "source": "Header",
+      "target": "Header (header1)",
+      "key": "header1",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-00-835274ec06aa0929a882546dd82e781d97ccca8e",
+          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 2,
+      "source": "Hero",
+      "target": "Hero (hero2)",
+      "key": "hero2",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-01-1202332ce7cd8307efd803d8735fefc8bda3f610",
+          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]",
+          "section": "section-2",
+          "differences": [
+            {
+              "element_id": "html__body__main__div__div",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "What is Adobe Experience Manager? Create a website, seriously fast. Adobe Experience Manager now integrates the tech you already own, know, and love. Your content, your tech, your audience taken to the next level. Create your site"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 3,
+      "source": "Columns",
+      "target": "Columns (columns3)",
+      "key": "columns3",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-04-e2c30ea848d3b7145974e92355df50a0c66ce6a9",
+          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[2]/div[3]/ul[1]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_2__div__div__div_4__div_2__div_3__ul",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Business Owners With its lightweight approach to web development, Adobe Experience Manager allows you to go live in weeks, onboard new developers in days, and iterate on changes in minutes. Unlimited preview sites give you confidence that changes will be what you need. Operations AEM is one less thing to be on call for. Incredible availability due to fully redundant architecture, endless scalability as a full software as a service and easy integrations with your existing CDN make go-live anxiety a thing of the past. Developers AEM uses all the things modern web developers love: GitHub, local development with auto-reload, performance, simplicity \u2013 and none of the complications: no transpilation, no bundlers, no configurations, no overhead. Quality Engineers Automated assurance of performance, accessibility, SEO, and best practices thanks to built-in quality checks. Continuous assurance of real-world site performance and functionality through real user monitoring."
+                }
+              ],
+              "dissimilarity_score": 0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 4,
+      "source": "Cards",
+      "target": "Cards (cards4)",
+      "key": "cards4",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-06-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
+          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_3__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "Unmatched Speed The full Adobe Experience Manager stack is optimized for one thing: make your content shine, and make it fast. Delivering at speed is not enough, so we also make it fast to author, publish, and develop"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": ". Content At Scale From simple sites to ten thousands of pages, AEM handles content at scale, across markets, languages, and countries. And even the biggest sites publish instantly with pushed cache purges. Uncertainty Eliminated There\u2019s no place for guesswork in authoring high-performing sites. Each preview generated by AEM offers 100% fidelity, and a unique, easily shareable URL for your reviewers. Widen the Talent Pool Using what you already know, is the core of the AEM approach. This means your team can do more with less, requires less training and creates fewer support tickets. Low Code Productivity Building great sites does not require complicated frameworks, tooling, or processes. AEM uses plain HTML, modern CSS, and vanilla JavaScript to create exceptional experiences without the usual overhead. Composability is Here Headless or headful, your content can go farther with AEM\u2019s composable architecture. Deliver the right content in the right format, and add the right decorations to make it an experience that stands out in any channel. Content First No matter if structured or unstructured, AEM puts your content first, delivers it optimally and provides your developers with everything they need to make it shine. Peak Performance Every great experience starts and ends with performance. Adobe continuously monitors the performance of your AEM site and lets you know when there are ways to improve. All you have to do is approve the pull request"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "."
+                }
+              ],
+              "dissimilarity_score": 0.48
+            }
+          ],
+          "similarity_score": 0.52
+        }
+      ]
+    },
+    {
+      "name": "Carousel",
+      "cluster": 5,
+      "source": "Carousel",
+      "target": "Carousel (carousel5)",
+      "key": "carousel5",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-09-729dbc69bd6754c600fde0469e2be2df5ed4759f",
+          "xpath": "/html[1]/body[1]/main[1]/div[5]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_5__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "\u201cAdobe made it easy for us to launch with a Lighthouse Score of 100, something nearly unheard of for professional sites. We did not have to compromise on functionality, even video-heavy sites perform superbly. And when the experience degrades, Adobe fixes issues proactively before we even notice\u201d Scott Gutterman PGA TOUR Senior Vice President, Digital Operations Visit Site "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "100 Google"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "100Google"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Lighthouse "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "50x Peak"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "50xPeak"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Traffic Ratio 12"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "+ "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "+"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Sites launched in Q1 \u201cAdobe Experience Manager has been a game-changer for our website. The easy-to-use platform has allowed us to provide our customers with in-depth product information and support resources in eight different languages, which has helped us to maintain our global reach.\u201d Geoff Angell Digital Strategy Manager, Graco Visit Site "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "100 Google"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "100Google"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Lighthouse "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "8 Language"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "8Language"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Markets "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "10 Custom"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "10Custom"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Blocks \u201cWith AEM we were able to spin up a critical site in a few weeks and get our new division\u2019s story to market effectively. Creating a new marketing site for our enterprise division that allowed us to meet our key stakeholders\u2019 performance and authoring requirements has never been easier. \u201d Corey Hankey Managing Partner, Thinkingbox Visit Site "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "100 Google"
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "100Google"
+                },
+                {
+                  "change_type": "equal",
+                  "text": " Lighthouse 20"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "+ "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "+"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Custom Blocks 4"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "+ "
+                },
+                {
+                  "change_type": "insertion",
+                  "text": "+"
+                },
+                {
+                  "change_type": "equal",
+                  "text": "Case Studies"
+                }
+              ],
+              "dissimilarity_score": 0.07
+            }
+          ],
+          "similarity_score": 0.9299999999999999
+        }
+      ]
+    },
+    {
+      "name": "Cards",
+      "cluster": 6,
+      "source": "Cards",
+      "target": "Cards (cards6)",
+      "key": "cards6",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-11-c4bb9bcd6b7f5c126349492502c25a1cfc4ec93e",
+          "xpath": "/html[1]/body[1]/main[1]/div[6]/div[2]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_6__div_2",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "01 Create content in Microsoft Word or Google Docs. Create a new folder in Google Drive or Microsoft SharePoint. Then add a new document and put some content in it. "
+                },
+                {
+                  "change_type": "deletion",
+                  "text": "02 Share your folder with Adobe. "
+                },
+                {
+                  "change_type": "equal",
+                  "text": "After you create a page, head back to your folder and share it with Adobe Experience Manager"
+                },
+                {
+                  "change_type": "deletion",
+                  "text": ". 03 See your site in action"
+                },
+                {
+                  "change_type": "equal",
+                  "text": ". After you have added some content, shared with Adobe, built a repo, and tied your repo to your content, you can see your site in action."
+                }
+              ],
+              "dissimilarity_score": 0.03
+            }
+          ],
+          "similarity_score": 0.97
+        }
+      ]
+    },
+    {
+      "name": "Hero",
+      "cluster": 7,
+      "source": "Hero",
+      "target": "Hero (hero7)",
+      "key": "hero7",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-12-ac2e8bbd7c8831a5258ff52117328fd77c4de5bd",
+          "xpath": "/html[1]/body[1]/main[1]/div[7]",
+          "differences": [
+            {
+              "element_id": "html__body__main__div_7",
+              "differences": [
+                {
+                  "change_type": "equal",
+                  "text": "See the real value of Adobe Experience Manager Create your site"
+                }
+              ],
+              "dissimilarity_score": -0.0
+            }
+          ],
+          "similarity_score": 0.0
+        }
+      ]
+    },
+    {
+      "name": "Columns",
+      "cluster": 8,
+      "source": "Columns",
+      "target": "Columns (columns8)",
+      "key": "columns8",
+      "instances": [
+        {
+          "url": "https://www.aem.live/",
+          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+          "uuid": "134c71e1-13-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
+          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
+          "section": "section-1"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-02-da37bc29bcd449f108cac73dfd3399bf90e92678",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/ul[1]",
+      "section": "section-3"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-03-9125ff314aefc17364a00ffdd2c54a5dd0c25aea",
+      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[3]"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-05-0d1b706870bc7ace13b06cf144620465738500f6",
+      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]/div[2]/h3[1]"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-07-ac18c7f4ff0dda41caddc17273e87ac35c820487",
+      "xpath": "/html[1]/body[1]/main[1]/div[4]"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-08-6dc87bcf9ebe619bf7d5770048c4bcc9fff44085",
+      "xpath": "/html[1]/body[1]/main[1]/div[5]/div[1]/div[2]/h3[1]"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-10-3d94e268c3cccc9bc0195455e91830491f262b0c",
+      "xpath": "/html[1]/body[1]/main[1]/div[6]/div[1]/div[2]/h3[1]"
+    },
+    {
+      "url": "https://www.aem.live/",
+      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
+      "uuid": "134c71e1-14-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
+      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]",
+      "section": "section-1"
+    }
+  ],
+  "pages": [
+    {
+      "url": "https://www.aem.live/",
+      "differences": [
+        {
+          "change_type": "insertion",
+          "text": "Adobe Experience Manager Documentation Resources Sidekick Install the AEM Sidekick to author and publish with Adobe Experience Manager. Community The right place to ask questions, share experiences, and learn more about AEM is our online and offline community Admin API Reference documentation for the Admin API. status.adobe.com Check if Adobe Experience Manager sites are available right now and confirm service level availability. AEM.live Blog Recent blog posts from the AEM team, updated every few weeks Create your site Create your site \u2715Search "
+        },
+        {
+          "change_type": "equal",
+          "text": "What is Adobe Experience Manager? Create a website, seriously fast. Adobe Experience Manager now integrates the tech you already own, know, and love. Your content, your tech, your audience taken to the next level. Create your site"
+        },
+        {
+          "change_type": "deletion",
+          "text": " \u2715 "
+        },
+        {
+          "change_type": "insertion",
+          "text": " Tell me about localizat\u2715 "
+        },
+        {
+          "change_type": "equal",
+          "text": "We didn't find a good match. Visit our documentation page for more. "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Web Performance , Keeping"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Translation"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "your"
+        },
+        {
+          "change_type": "insertion",
+          "text": "and"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Lighthouse"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Localizatio"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Score"
+        },
+        {
+          "change_type": "insertion",
+          "text": "n"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "100. The"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Managing"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "quality"
+        },
+        {
+          "change_type": "insertion",
+          "text": "internationalization (i18n) and"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "of"
+        },
+        {
+          "change_type": "insertion",
+          "text": "localizatio"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the"
+        },
+        {
+          "change_type": "insertion",
+          "text": "n (l10n) in"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "experience"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Adobe"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "of"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Experience"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "web"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Manager"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "site"
+        },
+        {
+          "change_type": "insertion",
+          "text": "What"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "s"
+        },
+        {
+          "change_type": "insertion",
+          "text": "localizatio"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "is"
+        },
+        {
+          "change_type": "insertion",
+          "text": "n (l10n) capabilities"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "crucial"
+        },
+        {
+          "change_type": "insertion",
+          "text": "does"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "to"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Edge"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "achieving"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Delivery"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "the business"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Services"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "goals"
+        },
+        {
+          "change_type": "insertion",
+          "text": "support? Edge"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "of"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Delivery"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "your"
+        },
+        {
+          "change_type": "insertion",
+          "text": "Services"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "website and the satisfaction of your"
+        },
+        {
+          "change_type": "insertion",
+          "text": "supports"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "visitors. Site"
+        },
+        {
+          "change_type": "insertion",
+          "text": "localizatio"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "maps"
+        },
+        {
+          "change_type": "insertion",
+          "text": "n"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Create"
+        },
+        {
+          "change_type": "insertion",
+          "text": "by"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "automatically"
+        },
+        {
+          "change_type": "insertion",
+          "text": "leveraging"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "generated"
+        },
+        {
+          "change_type": "insertion",
+          "text": "the"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "site"
+        },
+        {
+          "change_type": "insertion",
+          "text": "built-in"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "map"
+        },
+        {
+          "change_type": "insertion",
+          "text": "translation"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "files"
+        },
+        {
+          "change_type": "insertion",
+          "text": "tools"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "to be referenced from"
+        },
+        {
+          "change_type": "insertion",
+          "text": "of"
+        },
+        {
+          "change_type": "equal",
+          "text": " your "
+        },
+        {
+          "change_type": "deletion",
+          "text": "robots.txt. This helps with SEO and the discovery of new"
+        },
+        {
+          "change_type": "insertion",
+          "text": "chosen"
+        },
+        {
+          "change_type": "equal",
+          "text": " content"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". AEM can gene... Change Site Root The AEM Boilerplate"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "project assumes that the document root is situated at the project's root"
+        },
+        {
+          "change_type": "insertion",
+          "text": "source"
+        },
+        {
+          "change_type": "equal",
+          "text": ". "
+        },
+        {
+          "change_type": "deletion",
+          "text": "However, if"
+        },
+        {
+          "change_type": "insertion",
+          "text": "This"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "your"
+        },
+        {
+          "change_type": "insertion",
+          "text": "allows"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "project"
+        },
+        {
+          "change_type": "insertion",
+          "text": "customers"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "begins on"
+        },
+        {
+          "change_type": "insertion",
+          "text": "to"
+        },
+        {
+          "change_type": "equal",
+          "text": " "
+        },
+        {
+          "change_type": "deletion",
+          "text": "a subpage of another"
+        },
+        {
+          "change_type": "insertion",
+          "text": "use"
+        },
+        {
+          "change_type": "equal",
+          "text": " ... Use the technology you already have No time for slow sites Faster sites, better business You don\u2019t have the time for slow sites \u2013 and neither do your visitors. Business Owners Slow sites are not just a bad experience, they are also bad business. Why spend to acquire traffic only to lose the engagement on the site? Improved performance improves business outcomes like conversions, time on site, and order values. Visitors Performance is the number one factor limiting user experience of sites on the web. Performance outranks all other factors including design and content. Slow sites cause users to bounce, leave, and never return. SEO Slow sites mean most of your audience won\u2019t even see your site. With site performance becoming the most important factor for search engine rankings, this means lost traffic that you need to buy back in ads. Developers Many developers are stuck getting their sites to acceptable performance standards, and great performance seems out of reach. Adobe Experience Manager takes a performance-first approach to delivery, making lighthouse score 100 a reality. Publish Faster A CMS that gets out of the way gets your content on the way Business Owners By using the tools your authors already know, you don\u2019t just cut down on time for training and onboarding, you also manage your content in one place. When dealing with structured content, Adobe Experience Manager plays nice with Excel and Google Sheets. Authors AEM takes the unstructured content that you already have, in Word or Google Docs, and turns it into active web experiences. You can use the tools you already know, and all it takes to publish is the press of a button. Designers The content-first approach of AEM turns rigid content modeling chores on its head: the CMS adapts to the content authors create, instead of forcing authors to think in components, structure, and rules of a CMS. Content Operations Built with the needs of real-world mission-critical sites, AEM cracks the nuts of managing metadata at scale, delivering internationalized and localized content, optimizing for search engines, social sharing, testing, and experimentation. Develop Faster Everything modern web development needs, and not a single bit more Business Owners With its lightweight approach to web development, Adobe Experience Manager allows you to go live in weeks, onboard new developers in days, and iterate on changes in minutes. Unlimited preview sites give you confidence that changes will be what you need. Operations AEM is one less thing to be on call for. Incredible availability due to fully redundant architecture, endless scalability as a full software as a service and easy integrations with your existing CDN make go-live anxiety a thing of the past. Developers AEM uses all the things modern web developers love: GitHub, local development with auto-reload, performance, simplicity \u2013 and none of the complications: no transpilation, no bundlers, no configurations, no overhead. Quality Engineers Automated assurance of performance, accessibility, SEO, and best practices thanks to built-in quality checks. Continuous assurance of real-world site performance and functionality through real user monitoring. Benefits Made to meet your every CMS need and more Unmatched Speed The full Adobe Experience Manager stack is optimized for one thing: make your content shine, and make it fast. Delivering at speed is not enough, so we also make it fast to author, publish, and develop. "
+        },
+        {
+          "change_type": "deletion",
+          "text": "Content At Scale From simple sites to ten thousands of pages, AEM handles content at scale, across markets, languages, and countries. And even the biggest sites publish instantly with pushed cache purges. Uncertainty Eliminated There\u2019s no place for guesswork in authoring high-performing sites. Each preview generated by AEM offers 100% fidelity, and a unique, easily shareable URL for your reviewers. Widen the Talent Pool Using what you already know, is the core of the AEM approach. This means your team can do more with less, requires less training and creates fewer support tickets. Low Code Productivity Building great sites does not require complicated frameworks, tooling, or processes. AEM uses plain HTML, modern CSS, and vanilla JavaScript to create exceptional experiences without the usual overhead. Composability is Here Headless or headful, your content can go farther with AEM\u2019s composable architecture. Deliver the right content in the right format, and add the right decorations to make it an experience that stands out in any channel. Content First No matter if structured or unstructured, AEM puts your content first, delivers it optimally and provides your developers with everything they need to make it shine. Peak Performance Every great experience starts and ends with performance. Adobe continuously monitors the performance of your AEM site and lets you know when there are ways to improve. All you have to do is approve the pull request. "
+        },
+        {
+          "change_type": "equal",
+          "text": "Go live with trusted digital leaders Customer Stories Making an impact with our customers from the start \u201cAdobe made it easy for us to launch with a Lighthouse Score of 100, something nearly unheard of for professional sites. We did not have to compromise on functionality, even video-heavy sites perform superbly. And when the experience degrades, Adobe fixes issues proactively before we even notice\u201d Scott Gutterman PGA TOUR Senior Vice President, Digital Operations Visit Site "
+        },
+        {
+          "change_type": "deletion",
+          "text": "100 Google"
+        },
+        {
+          "change_type": "insertion",
+          "text": "100Google"
+        },
+        {
+          "change_type": "equal",
+          "text": " Lighthouse "
+        },
+        {
+          "change_type": "deletion",
+          "text": "50x Peak"
+        },
+        {
+          "change_type": "insertion",
+          "text": "50xPeak"
+        },
+        {
+          "change_type": "equal",
+          "text": " Traffic Ratio 12"
+        },
+        {
+          "change_type": "deletion",
+          "text": "+ "
+        },
+        {
+          "change_type": "insertion",
+          "text": "+"
+        },
+        {
+          "change_type": "equal",
+          "text": "Sites launched in Q1 \u201cAdobe Experience Manager has been a game-changer for our website. The easy-to-use platform has allowed us to provide our customers with in-depth product information and support resources in eight different languages, which has helped us to maintain our global reach.\u201d Geoff Angell Digital Strategy Manager, Graco Visit Site "
+        },
+        {
+          "change_type": "deletion",
+          "text": "100 Google"
+        },
+        {
+          "change_type": "insertion",
+          "text": "100Google"
+        },
+        {
+          "change_type": "equal",
+          "text": " Lighthouse "
+        },
+        {
+          "change_type": "deletion",
+          "text": "8 Language"
+        },
+        {
+          "change_type": "insertion",
+          "text": "8Language"
+        },
+        {
+          "change_type": "equal",
+          "text": " Markets "
+        },
+        {
+          "change_type": "deletion",
+          "text": "10 Custom"
+        },
+        {
+          "change_type": "insertion",
+          "text": "10Custom"
+        },
+        {
+          "change_type": "equal",
+          "text": " Blocks \u201cWith AEM we were able to spin up a critical site in a few weeks and get our new division\u2019s story to market effectively. Creating a new marketing site for our enterprise division that allowed us to meet our key stakeholders\u2019 performance and authoring requirements has never been easier. \u201d Corey Hankey Managing Partner, Thinkingbox Visit Site "
+        },
+        {
+          "change_type": "deletion",
+          "text": "100 Google"
+        },
+        {
+          "change_type": "insertion",
+          "text": "100Google"
+        },
+        {
+          "change_type": "equal",
+          "text": " Lighthouse 20"
+        },
+        {
+          "change_type": "deletion",
+          "text": "+ "
+        },
+        {
+          "change_type": "insertion",
+          "text": "+"
+        },
+        {
+          "change_type": "equal",
+          "text": "Custom Blocks 4"
+        },
+        {
+          "change_type": "deletion",
+          "text": "+ "
+        },
+        {
+          "change_type": "insertion",
+          "text": "+"
+        },
+        {
+          "change_type": "equal",
+          "text": "Case Studies How it works Creating a site with AEM is easy as 01 Create content in Microsoft Word or Google Docs. Create a new folder in Google Drive or Microsoft SharePoint. Then add a new document and put some content in it. "
+        },
+        {
+          "change_type": "deletion",
+          "text": "02 Share your folder with Adobe. "
+        },
+        {
+          "change_type": "equal",
+          "text": "After you create a page, head back to your folder and share it with Adobe Experience Manager"
+        },
+        {
+          "change_type": "deletion",
+          "text": ". 03 See your site in action"
+        },
+        {
+          "change_type": "equal",
+          "text": ". After you have added some content, shared with Adobe, built a repo, and tied your repo to your content, you can see your site in action. See the real value of Adobe Experience Manager Create your site"
+        },
+        {
+          "change_type": "insertion",
+          "text": " Adobe Experience Manager Guides Build Publish Launch Resources Sidekick FAQ Admin API CDN Selection Guide AEM Status AEM.live Blog Report Abuse Help Discord Community Chat AEM Community Overview Let\u2019s Connect!"
+        }
+      ],
+      "similarity_score": 0.9551543276487493
+    }
+  ]
+}
