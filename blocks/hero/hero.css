@@ -50,7 +50,7 @@
 .hero.hero2 {
   display: flex;
   flex-direction: row;
-  align-items: center; /* Vertically center columns */
+  align-items: center;
   justify-content: center;
   max-width: 1100px;
   margin: 0 auto;
@@ -58,17 +58,15 @@
   min-height: 730px;
   position: relative;
   background: none;
-  gap: 64px; /* Balanced gap between columns */
+  gap: 64px;
 }
 
-/* Remove excess top space, ensure hero starts at top */
 .hero-container > .hero-wrapper {
   max-width: unset;
   padding: 0;
   margin: 0;
 }
 
-/* Responsive layout: stack on mobile */
 @media (width <= 900px) {
   .hero.hero2 {
     flex-direction: column;
@@ -80,7 +78,6 @@
   }
 }
 
-/* Left side - Illustration */
 .hero.hero2 > div:first-child {
   flex: 0 1 360px;
   min-width: 260px;
@@ -124,7 +121,6 @@
   border-radius: 16px;
 }
 
-/* Right side - Text content */
 .hero.hero2 > div:last-child {
   flex: 1 1 530px;
   max-width: 540px;
@@ -230,7 +226,6 @@
   background: #005ad6;
 }
 
-/* Background grid overlay effect, sharper at top/left, fading to bottom/right */
 .hero.hero2::before {
   display: block;
   position: absolute;
@@ -266,9 +261,103 @@
   mix-blend-mode: lighten;
 }
 
-/* Layer content above backgrounds/grid */
 .hero.hero2 > div,
 .hero.hero2 > div > div {
   position: relative;
   z-index: 2;
+}
+
+/* Main hero block: warmer, more vibrant pastel gradient and extra vertical space */
+.hero.hero7 {
+  min-height: 480px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background:
+    linear-gradient(to right, rgb(0 0 0 / 5.5%) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(0 0 0 / 5.5%) 1px, transparent 1px),
+    linear-gradient(120deg, #dde1fa 0%, #f9d4e8 55%, #fff7d1 100%);
+  background-size: 32px 32px, 32px 32px, cover;
+  background-repeat: repeat, repeat, no-repeat;
+  background-position: top left, top left, center center;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+/* Content wrapper: vertical, perfectly centered */
+.hero.hero7 > div:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Headline styling: slightly tighter, less margin */
+.hero.hero7 h2 {
+  color: #000;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.05;
+  margin: 0 0 10px;
+  padding: 0;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Button container: center the button */
+.hero.hero7 .button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Button: compact, pill, moderate font-weight and padding */
+.hero.hero7 .button {
+  background: #1473e6;
+  color: #fff;
+  border-radius: 999px;
+  font-size: .97rem;
+  font-weight: 500;
+  padding: 8px 22px;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+  text-align: center;
+  line-height: 1.22;
+  transition: background 0.15s;
+  min-width: 0;
+  min-height: 0;
+}
+
+.hero.hero7 .button:hover,
+.hero.hero7 .button:focus {
+  background: #0d66d0;
+}
+
+/* Responsive adjustments for mobile */
+@media (width <= 600px) {
+  .hero.hero7 {
+    min-height: 200px;
+    padding: 16px 0;
+  }
+
+  .hero.hero7 h2 {
+    font-size: 1.07rem;
+    margin-bottom: 8px;
+    max-width: 92vw;
+  }
+
+  .hero.hero7 .button {
+    font-size: 0.92rem;
+    padding: 7px 12px;
+  }
 }
