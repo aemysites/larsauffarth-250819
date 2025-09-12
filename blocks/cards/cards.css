@@ -25,3 +25,108 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+
+.cards.cards4 {
+  padding: 64px 0;
+  background: #fff;
+}
+
+/* Use flexbox for ul to center card horizontally when only one card is present.
+   Fall back to grid for multiple cards. */
+.cards.cards4 > ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 0;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  list-style: none;
+}
+
+/* When there are multiple cards, use grid for layout */
+.cards.cards4 > ul:has(> li:nth-child(2)) {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px 32px;
+  justify-items: center;
+}
+
+/* Tablet: 2 columns if multiple cards */
+@media (max-width: 900px) {
+  .cards.cards4 > ul:has(> li:nth-child(2)) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Mobile: 1 column if multiple cards */
+@media (max-width: 600px) {
+  .cards.cards4 > ul:has(> li:nth-child(2)) {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Card cell: vertical stacking, center content */
+.cards.cards4 > ul > li {
+  background: #fff;
+  border: none;
+  box-sizing: border-box;
+  padding: 32px 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  max-width: 360px;
+  min-width: 0;
+}
+
+/* Icon styles: small and centered */
+.cards.cards4 .cards-card-image {
+  margin-bottom: 12px;
+  width: 24px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards.cards4 .cards-card-image img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  filter: grayscale(1) brightness(85%);
+  opacity: 0.7;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Body and text alignment */
+.cards.cards4 .cards-card-body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.cards.cards4 .cards-card-body h3 {
+  color: #bcbcbc;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 0 0 8px 0;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.cards.cards4 .cards-card-body p {
+  color: #cfcfcf;
+  font-size: 13px;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.5;
+  text-align: center;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
