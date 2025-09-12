@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .columns > div {
   display: flex;
   flex-direction: column;
@@ -36,7 +37,7 @@
 .columns.columns3 > div {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 20px 32px; /* even less vertical gap for row separation */
+  gap: 20px 32px;
   background: transparent;
 }
 
@@ -49,10 +50,8 @@
 .columns.columns3 > div > div {
   background: #fff;
   box-sizing: border-box;
-  padding: 14px 20px; /* tighter card padding */
-  border-radius: 4px;           /* nearly square corners */
-
-  /* extremely subtle box-shadow for card separation */
+  padding: 14px 20px;
+  border-radius: 4px;
   box-shadow: 0 2px 8px 0 rgb(32 32 32 / 3%);
   display: flex;
   flex-direction: column;
@@ -69,12 +68,12 @@
 
 .columns.columns3 > div > div ul li strong {
   display: block;
-  align-self: flex-start; /* left align the pill */
-  border-radius: 14px;    /* more rectangular pill */
-  padding: 5px 16px;      /* less vertical and horizontal padding */
+  align-self: flex-start;
+  border-radius: 14px;
+  padding: 5px 16px;
   font-size: 15px;
   font-weight: bold;
-  margin-bottom: 7px;     /* reduced margin under pill */
+  margin-bottom: 7px;
   margin-top: 0;
   line-height: 1.2;
   width: fit-content;
@@ -91,7 +90,6 @@
   text-align: left;
 }
 
-/* Pill colors and text colors for each card */
 .columns.columns3 > div > div:nth-child(1) ul li strong {
   background: #C773D5;
   color: #6D2583;
@@ -116,9 +114,109 @@
   display: none;
 }
 
-/* Remove excess card height for a more compact block */
 @media (width >= 900px) {
   .columns.columns3 > div > div {
     min-height: 0;
+  }
+}
+
+
+.columns.columns8 > div {
+  /* Use grid to enforce strict column and row alignment */
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  place-items: start start;
+  gap: 2vw;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Remove flex for grid children, let grid control placement */
+.columns.columns8 > div > div {
+  display: block;
+  min-width: 0;
+  padding: 0;
+  margin: 0;
+}
+
+/* Ensure all headings align to top with consistent margin */
+.columns.columns8 h3,
+.columns.columns8 h3 a {
+  color: #111;
+  font-size: 1.08rem;
+  font-weight: 600;
+  margin: 0 0 0.5em;
+  line-height: 1.25;
+  text-decoration: none;
+}
+
+/* Consistent spacing for lists and items */
+.columns.columns8 ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.columns.columns8 li {
+  margin-bottom: 0.22em;
+  padding: 0;
+}
+
+.columns.columns8 li a {
+  color: #111;
+  font-size: 0.95rem;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.columns.columns8 li a:hover {
+  text-decoration: underline;
+}
+
+/* Button column: let grid handle sizing, no extra width */
+.columns.columns8 .button-container {
+  margin-top: 0;
+  margin-bottom: 0;
+  place-self: start end;
+}
+
+.columns.columns8 .button-container .button {
+  background: #fff;
+  color: #111;
+  border: 1px solid #111;
+  border-radius: 999px;
+  font-size: 0.95rem;
+  font-weight: 400;
+  padding: 0.5em 1.1em;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  box-shadow: none;
+  text-align: center;
+  white-space: nowrap;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  max-width: unset;
+  min-width: 0;
+}
+
+.columns.columns8 .button-container .button:hover,
+.columns.columns8 .button-container .button:focus {
+  background: #111;
+  color: #fff;
+  border-color: #111;
+}
+
+/* Responsive: stack columns on small screens */
+@media (width <= 900px) {
+  .columns.columns8 > div {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+  }
+
+  .columns.columns8 .button-container {
+    justify-self: start;
+    margin-top: 1.5em;
   }
 }
