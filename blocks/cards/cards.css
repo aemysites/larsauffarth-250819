@@ -1,3 +1,4 @@
+/* stylelint-disable no-descending-specificity */
 .cards > ul {
   list-style: none;
   margin: 0;
@@ -32,8 +33,6 @@
   background: #fff;
 }
 
-/* Use flexbox for ul to center card horizontally when only one card is present.
-   Fall back to grid for multiple cards. */
 .cards.cards4 > ul {
   display: flex;
   justify-content: center;
@@ -46,7 +45,6 @@
   list-style: none;
 }
 
-/* When there are multiple cards, use grid for layout */
 .cards.cards4 > ul:has(> li:nth-child(2)) {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -54,21 +52,18 @@
   justify-items: center;
 }
 
-/* Tablet: 2 columns if multiple cards */
-@media (max-width: 900px) {
+@media (width <= 900px) {
   .cards.cards4 > ul:has(> li:nth-child(2)) {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Mobile: 1 column if multiple cards */
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .cards.cards4 > ul:has(> li:nth-child(2)) {
     grid-template-columns: 1fr;
   }
 }
 
-/* Card cell: vertical stacking, center content */
 .cards.cards4 > ul > li {
   background: #fff;
   border: none;
@@ -83,7 +78,6 @@
   min-width: 0;
 }
 
-/* Icon styles: small and centered */
 .cards.cards4 .cards-card-image {
   margin-bottom: 12px;
   width: 24px;
@@ -103,7 +97,6 @@
   margin: 0 auto;
 }
 
-/* Body and text alignment */
 .cards.cards4 .cards-card-body {
   margin: 0;
   padding: 0;
@@ -114,7 +107,7 @@
   color: #bcbcbc;
   font-size: 18px;
   font-weight: 500;
-  margin: 0 0 8px 0;
+  margin: 0 0 8px;
   line-height: 1.2;
   text-align: center;
 }
@@ -129,4 +122,138 @@
   max-width: 360px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+.cards.cards6 {
+  /* Vertically center cards block in viewport/parent section */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 32px 0;
+  background: transparent;
+  box-sizing: border-box;
+}
+
+.cards.cards6 > ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  place-items: center center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+@media (width <= 1000px) {
+  .cards.cards6 > ul {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}
+
+.cards.cards6 > ul > li {
+  background: #fff;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 8px 32px 0 rgb(44 62 80 / 8%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px 32px;
+  min-width: 320px;
+  max-width: 400px;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+/* .cards-card-body: vertical stack for badge, title, paragraphs */
+.cards.cards6 .cards-card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* Badge */
+.cards.cards6 .cards-card-body h4 {
+  order: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  font-weight: 700;
+  background: #EBF8B1;
+  color: #99CA3C;
+  margin: 0 0 10px;
+}
+
+/* Badge color per card position */
+.cards.cards6 > ul > li:nth-child(2) .cards-card-body h4 {
+  background: #F3D6F6;
+  color: #C47ABA;
+}
+
+.cards.cards6 > ul > li:nth-child(3) .cards-card-body h4 {
+  background: #D2DDFC;
+  color: #6A8CCB;
+}
+
+/* Title */
+.cards.cards6 .cards-card-body h3 {
+  order: 2;
+  color: #636363;
+  font-size: 1.18rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+/* Paragraphs */
+.cards.cards6 .cards-card-body p {
+  order: 3;
+  color: #A3A3A3;
+  font-size: 1rem;
+  font-weight: 400;
+  margin: 0 0 8px;
+  text-align: center;
+  line-height: 1.5;
+}
+
+/* Place image close to last paragraph */
+.cards.cards6 .cards-card-image {
+  order: 4;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 18px;
+  margin-bottom: 0;
+}
+
+/* Image styling, softer shadow, appropriate sizing */
+.cards.cards6 .cards-card-image img,
+.cards.cards6 .cards-card-image picture {
+  max-width: 220px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px 0 rgb(44 62 80 / 8%);
+  display: block;
+}
+
+/* Prevent unwanted overflow from card content */
+.cards.cards6 > ul > li > * {
+  max-width: 100%;
+  box-sizing: border-box;
 }
