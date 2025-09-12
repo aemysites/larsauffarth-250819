@@ -31,3 +31,94 @@
     order: unset;
   }
 }
+
+
+.columns.columns3 > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 32px; /* even less vertical gap for row separation */
+  background: transparent;
+}
+
+@media (width <= 900px) {
+  .columns.columns3 > div {
+    grid-template-columns: 1fr;
+  }
+}
+
+.columns.columns3 > div > div {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 14px 20px; /* tighter card padding */
+  border-radius: 4px;           /* nearly square corners */
+
+  /* extremely subtle box-shadow for card separation */
+  box-shadow: 0 2px 8px 0 rgb(32 32 32 / 3%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0;
+}
+
+.columns.columns3 > div > div ul,
+.columns.columns3 > div > div ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.columns.columns3 > div > div ul li strong {
+  display: block;
+  align-self: flex-start; /* left align the pill */
+  border-radius: 14px;    /* more rectangular pill */
+  padding: 5px 16px;      /* less vertical and horizontal padding */
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 7px;     /* reduced margin under pill */
+  margin-top: 0;
+  line-height: 1.2;
+  width: fit-content;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.columns.columns3 > div > div ul li {
+  color: #222;
+  font-size: 15px;
+  line-height: 1.7;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Pill colors and text colors for each card */
+.columns.columns3 > div > div:nth-child(1) ul li strong {
+  background: #C773D5;
+  color: #6D2583;
+}
+
+.columns.columns3 > div > div:nth-child(2) ul li strong {
+  background: #5A6DD1;
+  color: #fff;
+}
+
+.columns.columns3 > div > div:nth-child(3) ul li strong {
+  background: #B6DB62;
+  color: #417505;
+}
+
+.columns.columns3 > div > div:nth-child(4) ul li strong {
+  background: #F9E06E;
+  color: #750;
+}
+
+.columns.columns3 > div > div ul li strong + br {
+  display: none;
+}
+
+/* Remove excess card height for a more compact block */
+@media (width >= 900px) {
+  .columns.columns3 > div > div {
+    min-height: 0;
+  }
+}
