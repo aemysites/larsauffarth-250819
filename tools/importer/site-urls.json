@@ -1,0 +1,628 @@
+{
+  "originUrl": "https://www.aem.live",
+  "aborted": false,
+  "lastCrawled": "https://www.aem.live/",
+  "urls": [
+    {
+      "url": "https://www.aem.live/business/comms-channel-thank-you",
+      "source": "SITEMAPS",
+      "targetPath": "/business/comms-channel-thank-you",
+      "id": "26519f238c8190c41306e3920ddf12ffbb14a8f0"
+    },
+    {
+      "url": "https://www.aem.live/business/content-velocity",
+      "source": "SITEMAPS",
+      "targetPath": "/business/content-velocity",
+      "id": "3a37b1ed3846bbcb25bac557616f719fe596de88"
+    },
+    {
+      "url": "https://www.aem.live/business/demo",
+      "source": "SITEMAPS",
+      "targetPath": "/business/demo",
+      "id": "17c980a6bed3c7c5fc14cf9c934b4bf7ba6b9c79"
+    },
+    {
+      "url": "https://www.aem.live/business/helix-is-green",
+      "source": "SITEMAPS",
+      "targetPath": "/business/helix-is-green",
+      "id": "92386948ec2ffdd76047e621fae939a76865713c"
+    },
+    {
+      "url": "https://www.aem.live/business/reachout",
+      "source": "SITEMAPS",
+      "targetPath": "/business/reachout",
+      "id": "0e6eadc7474fe56f865e138da238d6b852bef751"
+    },
+    {
+      "url": "https://www.aem.live/community",
+      "source": "SITEMAPS",
+      "targetPath": "/community",
+      "id": "49713ca2d98ffe7deb2497f33aa3e780eff6df30"
+    },
+    {
+      "url": "https://www.aem.live/developer",
+      "source": "SITEMAPS",
+      "targetPath": "/developer",
+      "id": "2134e656a72f883c1345509e04b015d27097806f"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection",
+      "id": "4174b52039f1a10393791aadbb4b191777bb9b42"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/breadcrumbs",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/breadcrumbs",
+      "id": "819445a2724e8f3e7114d60c1916d9295c11899d"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/buttons",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/buttons",
+      "id": "78c7b27de8c1dd99584acbf99eb8e5aa94dd9ad6"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/code",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/code",
+      "id": "76ab091de48c81b256162f77b2ef1d1aacd77157"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/footer",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/footer",
+      "id": "292f39f844599f18942946de4b938d96464b90bf"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/header",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/header",
+      "id": "3474d0c5d4d596003d580de88f2ce775d9ac710d"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/headings",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/headings",
+      "id": "239cffba8c898b49cac9ac35a173efb64f3aacef"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/icons",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/icons",
+      "id": "a8de8bd95b5f0f9baae4f720c9c1dcadf1182b85"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/images",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/images",
+      "id": "8dd0b285089aa3467a38e7eb0f26cce38f924042"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/links",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/links",
+      "id": "62b2c8c718f8a6f1d8e5dafc0400a7f3d8d6612b"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/lists",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/lists",
+      "id": "083a2c25b8b354b57afe002b190c4e86209a020d"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/metadata",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/metadata",
+      "id": "9a8c899bb2bb97c6d9f677e427ec9bdfd755dc42"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/modal",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/modal",
+      "id": "694d7875b487133d4b89db527a8b48d852fa2163"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/search",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/search",
+      "id": "6c1fc1670d4fbf9f36ad39b14992ee2db9662d0a"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/section-metadata",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/section-metadata",
+      "id": "466aec1202693b83cd98a70bc84bcea4f1fe5e3f"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/sections",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/sections",
+      "id": "b20e1e753c3577a095fcf85fc78bb2901670206a"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-collection/text",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-collection/text",
+      "id": "fb4d6b5465cefbf3ee1c3dd3dbb1d2e1984a29a7"
+    },
+    {
+      "url": "https://www.aem.live/developer/block-party/thank-you",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/block-party/thank-you",
+      "id": "65936c35cc84a2684ea4b37cffb371d09a55ec20"
+    },
+    {
+      "url": "https://www.aem.live/developer/change-site-root",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/change-site-root",
+      "id": "a6d8fdfa09404f829119a6589e823665ce7c0a1a"
+    },
+    {
+      "url": "https://www.aem.live/developer/configuring-aem-assets-sidekick-plugin",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/configuring-aem-assets-sidekick-plugin",
+      "id": "44def6608c35fb5aec684626b8504873a8484536"
+    },
+    {
+      "url": "https://www.aem.live/developer/example-form/thank-you",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/example-form/thank-you",
+      "id": "375f02ecea7638429707b58828c786c3b4c029a1"
+    },
+    {
+      "url": "https://www.aem.live/developer/favicon",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/favicon",
+      "id": "a74ad4a9640378bb33743b9f47aa11f6bf988d7a"
+    },
+    {
+      "url": "https://www.aem.live/developer/folder-mapping",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/folder-mapping",
+      "id": "cb1ad669c7e2c124ff40ac6b58477712e7d7a82f"
+    },
+    {
+      "url": "https://www.aem.live/developer/font-fallback",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/font-fallback",
+      "id": "729b09d1b33aae583a301ab4e06273c71817908a"
+    },
+    {
+      "url": "https://www.aem.live/developer/forms",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/forms",
+      "id": "f337c8c845e21e6078e745969ffb1f1a42973461"
+    },
+    {
+      "url": "https://www.aem.live/developer/github-actions",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/github-actions",
+      "id": "7750e4adbb6e3567c59cebd149a096cf5dbc9bc2"
+    },
+    {
+      "url": "https://www.aem.live/developer/importer",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/importer",
+      "id": "6076fb973b3028c66755d96f052269eb4bbea11d"
+    },
+    {
+      "url": "https://www.aem.live/developer/indexing",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/indexing",
+      "id": "5696d6d4e1d8ebd8e584cf10bafeebb1e4f36917"
+    },
+    {
+      "url": "https://www.aem.live/developer/keeping-it-100",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/keeping-it-100",
+      "id": "5bad29f9583b66b1614103b178aae96f56924f81"
+    },
+    {
+      "url": "https://www.aem.live/developer/markup-reference",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/markup-reference",
+      "id": "da0e37e42f740d49f5e867512e42cbca212ff2e0"
+    },
+    {
+      "url": "https://www.aem.live/developer/markup-sections-blocks",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/markup-sections-blocks",
+      "id": "586cdc350eac7a0f51a7aeabea26b56d98c37963"
+    },
+    {
+      "url": "https://www.aem.live/developer/placeholders",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/placeholders",
+      "id": "1f406e2e8ba86576ee1dfba51ff2e7e5bf04838b"
+    },
+    {
+      "url": "https://www.aem.live/developer/sitemap",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/sitemap",
+      "id": "7cd6b660f5177577a47309d00bfd802979e0de4e"
+    },
+    {
+      "url": "https://www.aem.live/developer/spreadsheets",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/spreadsheets",
+      "id": "6b67ad02f0645099c150fcb1cbe370b5f0f2b047"
+    },
+    {
+      "url": "https://www.aem.live/developer/target-integration",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/target-integration",
+      "id": "d9b8de21430130aa76b80e78a29b8390c2fccb8d"
+    },
+    {
+      "url": "https://www.aem.live/developer/tutorial",
+      "source": "SITEMAPS",
+      "targetPath": "/developer/tutorial",
+      "id": "61143ff1c32e7508a95126188e3fd19ad7002c16"
+    },
+    {
+      "url": "https://www.aem.live/docs/",
+      "source": "SITEMAPS",
+      "targetPath": "/docs",
+      "id": "75565348e4798335dbfc19122c60619376fe03c7"
+    },
+    {
+      "url": "https://www.aem.live/docs/aem-assets-sidekick-plugin",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/aem-assets-sidekick-plugin",
+      "id": "dd25189409b74efc873aeebcc0d4a27a93c25d9c"
+    },
+    {
+      "url": "https://www.aem.live/docs/architecture",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/architecture",
+      "id": "871496835e6b205d3f7d65d659667e4b3ddcc266"
+    },
+    {
+      "url": "https://www.aem.live/docs/auditlog",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/auditlog",
+      "id": "8486d807fb2535ecc051ee93ccfc54145f7a0862"
+    },
+    {
+      "url": "https://www.aem.live/docs/authentication-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/authentication-setup",
+      "id": "039d029a25d5e8498f063c58230dd8ab99c52be4"
+    },
+    {
+      "url": "https://www.aem.live/docs/authentication-setup-authoring",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/authentication-setup-authoring",
+      "id": "9f2447f159d44ff1cf4cec13c826cf0441642fef"
+    },
+    {
+      "url": "https://www.aem.live/docs/authentication-setup-site",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/authentication-setup-site",
+      "id": "b096b3e9ff1884fa4767f4734471d48c6b76e3fc"
+    },
+    {
+      "url": "https://www.aem.live/docs/authoring",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/authoring",
+      "id": "f4088e616904979a3963ad053a5600f1f81458ba"
+    },
+    {
+      "url": "https://www.aem.live/docs/bulk-metadata",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/bulk-metadata",
+      "id": "01b48e1acc720626a7c6a82bd498172e34684405"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-akamai-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-akamai-setup",
+      "id": "6f265409136a18665f95da7cfa70ae8cbade5704"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-cloudflare-worker-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-cloudflare-worker-setup",
+      "id": "8c3d54d9f3a3b891b2f12ce91cdc4a29616f4362"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-cloudflare-worker-wrangler-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-cloudflare-worker-wrangler-setup",
+      "id": "a73a75d8f36f675008353a83ddacba8a9fee2ca5"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-cloudfront-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-cloudfront-setup",
+      "id": "cd32aee3284a1c435de0c705a137193ff0c33bd0"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-fastly-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-fastly-setup",
+      "id": "20fd76c44f02655283fbb22adc9c4e426c165e27"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-cdn-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-cdn-setup",
+      "id": "0bc2a5ecacb7d2488687c8fc7865016570f2d11a"
+    },
+    {
+      "url": "https://www.aem.live/docs/byo-dns",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/byo-dns",
+      "id": "826711a9bc54ea14c6731d52baca3d202ee0a841"
+    },
+    {
+      "url": "https://www.aem.live/docs/china",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/china",
+      "id": "52e35707d226499fe887638f493f492b8b01f226"
+    },
+    {
+      "url": "https://www.aem.live/docs/configuration",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/configuration",
+      "id": "8a2d69ae056bdae9af92e3e9c00b6d65eb276cc0"
+    },
+    {
+      "url": "https://www.aem.live/docs/custom-headers",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/custom-headers",
+      "id": "ae2e88ed20df5733004b76eb913a6e521736f669"
+    },
+    {
+      "url": "https://www.aem.live/docs/davidsmodel",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/davidsmodel",
+      "id": "efca95ad0717cc2151676e59704717db3b515a85"
+    },
+    {
+      "url": "https://www.aem.live/docs/dev-collab-and-good-practices",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/dev-collab-and-good-practices",
+      "id": "3fd29fa4ab3f7a241217097be8ce492490a324e8"
+    },
+    {
+      "url": "https://www.aem.live/docs/experimentation",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/experimentation",
+      "id": "0d90c1e115d5da01af39cc541d6ea2b7d2f1e2d5"
+    },
+    {
+      "url": "https://www.aem.live/docs/exploring-blocks",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/exploring-blocks",
+      "id": "e30e9f9e0bfc4fab9cf063035cdb4d9522789c85"
+    },
+    {
+      "url": "https://www.aem.live/docs/faq",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/faq",
+      "id": "2950256a18a8ae3c35c10987143079058b922dc4"
+    },
+    {
+      "url": "https://www.aem.live/docs/global",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/global",
+      "id": "d8865bb52b327e697854388a88047ee8425edd4f"
+    },
+    {
+      "url": "https://www.aem.live/docs/go-live-checklist",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/go-live-checklist",
+      "id": "a6ba4dd3ac224d0ee34bb96da2aeebbe9092fbea"
+    },
+    {
+      "url": "https://www.aem.live/docs/indexing-reference",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/indexing-reference",
+      "id": "949f8645e2b4dc74d7e69a6ff328ace85ea47429"
+    },
+    {
+      "url": "https://www.aem.live/docs/limits",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/limits",
+      "id": "66ac872c4401ad1ead9088f4944838b38119adf7"
+    },
+    {
+      "url": "https://www.aem.live/docs/manual-forms-sheet-setup",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/manual-forms-sheet-setup",
+      "id": "ec68512f0799fa1ea82a9caabd230fd55e52b503"
+    },
+    {
+      "url": "https://www.aem.live/docs/move-project-to-customer-infrastructure",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/move-project-to-customer-infrastructure",
+      "id": "ac8abe1774e9dac04e596c93a04e11340b073e9d"
+    },
+    {
+      "url": "https://www.aem.live/docs/network-profile",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/network-profile",
+      "id": "906bee52a1883d166859e84db25bdb32f20f4505"
+    },
+    {
+      "url": "https://www.aem.live/docs/placeholders",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/placeholders",
+      "id": "e910455a56f6fc3bc78f01cf62626ec6ab2a1025"
+    },
+    {
+      "url": "https://www.aem.live/docs/redirects",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/redirects",
+      "id": "9c3b6c1259c830cf8d168b5dc0c22c33bd7143fc"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-adobe-sharepoint",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-adobe-sharepoint",
+      "id": "a617ca928139e78f908f7a810745c79db4687ed2"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-byo-cdn-push-invalidation",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-byo-cdn-push-invalidation",
+      "id": "7a393212670e8455833860d42199eef0f641a243"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-byo-cdn-push-invalidation-for-akamai",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-byo-cdn-push-invalidation-for-akamai",
+      "id": "6f7d6c3c550fc270dadd4bf3c39354112bc92a4b"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-byo-cdn-push-invalidation-for-cloudflare",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-byo-cdn-push-invalidation-for-cloudflare",
+      "id": "6c6a61183d480c47fdca5806167c1f671bc2f77f"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-byo-cdn-push-invalidation-for-cloudfront",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-byo-cdn-push-invalidation-for-cloudfront",
+      "id": "9287c60798d78f2c92108965d6e055509e7b38f6"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-byo-cdn-push-invalidation-for-fastly",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-byo-cdn-push-invalidation-for-fastly",
+      "id": "680a2c53cc47b759465e477286188e434e685bb0"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-customer-googledrive",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-customer-googledrive",
+      "id": "9e52abff7d960dd3d2435f0e55044c4318bf538a"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-customer-sharepoint",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-customer-sharepoint",
+      "id": "780e399a4644d23f83a2b3243a712c52988e1602"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-googledrive",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-googledrive",
+      "id": "6784c3abe40de564b1fd599106a808cc6dd10040"
+    },
+    {
+      "url": "https://www.aem.live/docs/setup-sharepoint",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/setup-sharepoint",
+      "id": "d7f3ee895376ef08d97852e9964d7b3ecd494ef7"
+    },
+    {
+      "url": "https://www.aem.live/docs/sidekick",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/sidekick",
+      "id": "de88f14528583357f75e596b174a793b6c38ee7e"
+    },
+    {
+      "url": "https://www.aem.live/docs/sidekick-library",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/sidekick-library",
+      "id": "b1da18b4f00317e228531ad83abfde38f091b9b2"
+    },
+    {
+      "url": "https://www.aem.live/docs/slack",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/slack",
+      "id": "167ddf7e17622de3abdadce27364eedde3d62fe6"
+    },
+    {
+      "url": "https://www.aem.live/docs/staging",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/staging",
+      "id": "a8fa1a18abc490610a4a3783cd87b0305ffdd69e"
+    },
+    {
+      "url": "https://www.aem.live/docs/translation-and-localization",
+      "source": "SITEMAPS",
+      "targetPath": "/docs/translation-and-localization",
+      "id": "86e1e513034c9cd4a9bcea7158ddcf8a3c9466da"
+    },
+    {
+      "url": "https://www.aem.live/experiments/short-home/home",
+      "source": "SITEMAPS",
+      "targetPath": "/experiments/short-home/home",
+      "id": "14e9263c3aac55e8ed82831d0f5aaa71b56b05f7"
+    },
+    {
+      "url": "https://www.aem.live/footer",
+      "source": "SITEMAPS",
+      "targetPath": "/footer",
+      "id": "148e0561ac8068b587b70c4c34b9c4cf7517c1fa"
+    },
+    {
+      "url": "https://www.aem.live/gnav",
+      "source": "SITEMAPS",
+      "targetPath": "/gnav",
+      "id": "3c008cc040c50a9727bdf501504a29f0f771775b"
+    },
+    {
+      "url": "https://www.aem.live/new-footer",
+      "source": "SITEMAPS",
+      "targetPath": "/new-footer",
+      "id": "0bfb84208c39e13cc42bd042712188c0394ed3bd"
+    },
+    {
+      "url": "https://www.aem.live/tools/mp4-doctor/",
+      "source": "SITEMAPS",
+      "targetPath": "/tools/mp4-doctor",
+      "id": "e9bcca05169723b54c29b8cf89b7cf7c882ddb49"
+    },
+    {
+      "url": "https://www.aem.live/tools/organizer/",
+      "source": "SITEMAPS",
+      "targetPath": "/tools/organizer",
+      "id": "79a8abbed39a5407cbe8f2266d47aa7580382a44"
+    },
+    {
+      "url": "https://www.aem.live/tools/sidekick/install-extension",
+      "source": "SITEMAPS",
+      "targetPath": "/tools/sidekick/install-extension",
+      "id": "3ddaece853395421a6a8d9232632dd3391c1fa38"
+    },
+    {
+      "url": "https://www.aem.live/tools/sidekick/library",
+      "source": "SITEMAPS",
+      "targetPath": "/tools/sidekick/library",
+      "id": "efacc9a582960d912c013d9979318a2139f6f851"
+    },
+    {
+      "url": "https://www.aem.live/tools/svg-doctor/",
+      "source": "SITEMAPS",
+      "targetPath": "/tools/svg-doctor",
+      "id": "356947ab310748542f3744ae7e6e9887d7899a1d"
+    }
+  ],
+  "crawlOptions": {
+    "timeout": 64800000,
+    "inclusionPatterns": [],
+    "exclusionPatterns": [],
+    "limit": 100,
+    "sameDomain": true,
+    "keepHash": false,
+    "strategy": "sitemaps",
+    "logger": {},
+    "strategiesAttempted": [
+      "SITEMAPS"
+    ]
+  },
+  "extractionErrors": [
+    {
+      "url": "https://www.aem.live/developer/block-collection/embed",
+      "status": "301 Moved Permanently Redirect: https://sidekick-library--aem-block-collection--adobe.aem.page/tools/sidekick/library.html?plugin=blocks&path=/block-collection/embed&index=0"
+    }
+  ],
+  "errorCountMessage": "{\"E_301\":1}",
+  "error": null
+}
