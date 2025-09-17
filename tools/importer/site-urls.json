@@ -1,15 +1,21 @@
 {
-  "originUrl": "https://www.aem.live",
+  "originUrl": "https://advisors.ubs.com",
   "aborted": false,
+  "lastCrawled": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
   "urls": [
     {
-      "url": "https://www.aem.live/",
-      "source": "MANUAL",
-      "targetPath": "/",
-      "id": "134c71e14d5a5a457f7657a91f8b82402445fb23"
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+      "source": "CRAWL",
+      "targetPath": "/thegulfcoastgroup",
+      "id": "63173a653ed63654a0537cc8a7c4c4813b9545e6"
+    },
+    {
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+      "source": "CRAWL",
+      "targetPath": "/thegulfcoastgroup",
+      "id": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00"
     }
   ],
-  "lastCrawled": null,
   "crawlOptions": {
     "timeout": 64800000,
     "inclusionPatterns": [],
@@ -17,11 +23,19 @@
     "limit": 100,
     "sameDomain": true,
     "keepHash": false,
-    "strategy": "manual",
+    "strategy": "crawl",
+    "logger": {},
     "strategiesAttempted": [
-      "MANUAL"
+      "SITEMAPS",
+      "CRAWL"
     ]
   },
-  "extractionErrors": [],
-  "errorCountMessage": "none"
+  "extractionErrors": [
+    {
+      "url": "https://advisors.ubs.com/global/en/legal/privacy.html",
+      "status": "404 Not Found"
+    }
+  ],
+  "errorCountMessage": "{\"E_404\":1}",
+  "error": null
 }
