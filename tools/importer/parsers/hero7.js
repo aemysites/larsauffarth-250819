@@ -1,43 +1,29 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the main content wrapper
-  const innerContent = element.querySelector('.inner-content');
-
-  // --- Background Image Extraction (row 2) ---
-  // No image present in this HTML, but code supports future variations
-  let backgroundImage = '';
-  // If a background image is present as an <img> or background style, extract it here
-  // Example: const img = element.querySelector('img'); if (img) backgroundImage = img;
-
-  // --- Content Extraction (row 3) ---
-  const upperContent = innerContent ? innerContent.querySelector('.upper-content') : null;
-  const contentFragments = [];
-
-  if (upperContent) {
-    // Heading (styled as heading)
-    const heading = upperContent.querySelector('h1, h2, h3, h4, h5, h6');
-    if (heading) {
-      contentFragments.push(heading);
-    }
-    // CTA button (text with link)
-    const cta = upperContent.querySelector('a.button');
-    if (cta) {
-      contentFragments.push(cta);
-    }
-  }
-
-  // --- Table Construction ---
-  // Header row must match block name exactly
+  // Block header row: must match target block name exactly
   const headerRow = ['Hero (hero7)'];
-  const imageRow = [backgroundImage];
-  const contentRow = [contentFragments];
 
-  const table = WebImporter.DOMUtils.createTable([
-    headerRow,
-    imageRow,
-    contentRow
-  ], document);
+  // Background image row: This hero uses a CSS gradient grid, not an <img>, so leave empty
+  const backgroundRow = [''];
 
-  // Replace the original element with the block table
-  element.replaceWith(table);
+  // Content row: heading, subheading (if any), CTA
+  const contentCell = document.createElement('div');
+  const upperContent = element.querySelector('.upper-content');
+  if (upperContent) {
+    // Heading (h2)
+    const heading = upperContent.querySelector('h2');
+    if (heading) contentCell.appendChild(heading);
+    // Subheading (optional, if present)
+    const subheading = upperContent.querySelector('h3, h4, h5, h6, p');
+    if (subheading && subheading !== heading) contentCell.appendChild(subheading);
+    // CTA button
+    const cta = upperContent.querySelector('a.button');
+    if (cta) contentCell.appendChild(cta);
+  }
+  const contentRow = [contentCell];
+
+  // Compose table
+  const cells = [headerRow, backgroundRow, contentRow];
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+  element.replaceWith(block);
 }

@@ -1,80 +1,71 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: find the testimonials block
-  const testimonialsBlock = element.querySelector('.testimonials');
-  if (!testimonialsBlock) return;
+  // Defensive: Find the main testimonials block
+  const block = element.querySelector('.testimonials');
+  if (!block) return;
 
-  // Find all tabpanel testimonial slides
-  const tabPanels = testimonialsBlock.querySelectorAll('.tabcontent .tabpanel.testimonial');
-  if (!tabPanels.length) return;
+  // Find all tabpanels (each is a slide)
+  const tabPanels = block.querySelectorAll('.tabcontent .tabcontent-container > .testimonial');
 
-  // Table header row as required
+  // Table header as required
   const headerRow = ['Carousel (carousel5)'];
   const rows = [headerRow];
 
   tabPanels.forEach((panel) => {
     // --- IMAGE CELL ---
-    // Find the main image for the slide
+    // Find the main slide image (first .image-side picture)
     let imageCell = null;
     const imageSide = panel.querySelector('.image-side');
     if (imageSide) {
-      // Use the <picture> block directly
-      const picture = imageSide.querySelector('picture');
-      if (picture) {
-        imageCell = picture;
-      }
+      // Use the <picture> element directly
+      const pic = imageSide.querySelector('picture');
+      if (pic) imageCell = pic;
     }
 
     // --- CONTENT CELL ---
-    const contentCell = document.createElement('div');
-    contentCell.style.display = 'flex';
-    contentCell.style.flexDirection = 'column';
-
+    const content = [];
     // Testimonial quote
-    const quote = panel.querySelector('.testimonial-quote');
+    const quote = panel.querySelector('.testimonial-info .testimonial-quote');
     if (quote) {
-      // Use a heading for the quote
-      const heading = document.createElement('h2');
-      heading.innerHTML = quote.innerHTML;
-      contentCell.appendChild(heading);
+      // Make a heading element for the quote
+      const heading = document.createElement('h3');
+      heading.textContent = quote.textContent.replace(/^[“"]|[”"]$/g, '');
+      content.push(heading);
     }
 
-    // Customer info (image, name, title, CTA)
+    // Customer info
     const customerInfo = panel.querySelector('.customer-info');
     if (customerInfo) {
-      // Customer image
-      const custPic = customerInfo.querySelector('picture');
-      if (custPic) {
-        contentCell.appendChild(custPic);
-      }
-      // Titles (name, role)
+      // Optionally add customer image
+      const customerPic = customerInfo.querySelector('picture');
+      if (customerPic) content.push(customerPic);
+      // Add name/title
       const titles = customerInfo.querySelector('.titles');
       if (titles) {
         // Add each <p> as a paragraph
         titles.querySelectorAll('p').forEach((p) => {
-          contentCell.appendChild(p);
+          content.push(p);
         });
       }
-      // CTA link
+      // Add CTA link
       const cta = customerInfo.querySelector('a[href]');
-      if (cta) {
-        contentCell.appendChild(cta);
-      }
+      if (cta) content.push(cta);
     }
 
     // Stats list
-    const statsList = panel.querySelector('ul');
+    const statsList = panel.querySelector('.testimonial-info ul');
     if (statsList) {
       // Add as-is
-      contentCell.appendChild(statsList);
+      content.push(statsList);
     }
 
-    // Add row to table
-    rows.push([imageCell, contentCell]);
+    // Defensive: If no image, skip row
+    if (!imageCell) return;
+    rows.push([imageCell, content]);
   });
 
-  // Create the block table
-  const block = WebImporter.DOMUtils.createTable(rows, document);
-  // Replace the original element
-  element.replaceWith(block);
+  // Create table block
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  // Replace original element
+  element.replaceWith(table);
 }

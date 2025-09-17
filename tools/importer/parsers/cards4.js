@@ -1,44 +1,40 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Get all immediate card columns
-  const cardNodes = Array.from(element.querySelectorAll(':scope > div > div'));
+  // Table header row: exactly one column
+  const rows = [ ['Cards (cards4)'] ];
 
-  // Header row as specified
-  const headerRow = ['Cards (cards4)'];
+  // Find all card columns
+  const cardEls = Array.from(element.querySelectorAll(':scope > div > div'));
 
-  // Helper to extract icon and text content from each card
-  function extractCardContent(card) {
-    // Find the content wrapper
-    const wrapper = card.querySelector('.columns-content-wrapper');
-    if (!wrapper) return ['', ''];
+  cardEls.forEach((cardEl) => {
+    const wrapper = cardEl.querySelector('.columns-content-wrapper');
+    if (!wrapper) return;
 
-    // Icon: find the span.icon (contains svg)
-    const iconSpan = wrapper.querySelector('.icon');
-    const iconCell = iconSpan || '';
+    // Icon: get the first .icon span (with svg)
+    const icon = wrapper.querySelector('.icon');
 
-    // Text: collect ALL non-empty <h3> and <p> elements in order
-    const textCell = [];
-    Array.from(wrapper.children).forEach(child => {
-      if (child.tagName === 'H3' && child.textContent.trim()) {
-        textCell.push(child);
-      }
-      if (child.tagName === 'P' && child.textContent.trim()) {
-        textCell.push(child);
+    // Text cell: collect heading and all non-empty paragraphs (before and after heading)
+    const heading = wrapper.querySelector('h3');
+    let textCell = [];
+    if (heading) textCell.push(heading.cloneNode(true));
+    Array.from(wrapper.querySelectorAll('p')).forEach((p) => {
+      if (p.textContent.trim().length > 0) {
+        textCell.push(p.cloneNode(true));
       }
     });
+    // Remove duplicate heading if h3 is also a p
+    textCell = textCell.filter((el) => {
+      if (el.tagName === 'H3') return true;
+      if (heading && el.textContent.trim() === heading.textContent.trim()) return false;
+      return true;
+    });
+    // Add row: [icon, text]
+    rows.push([
+      icon ? icon.cloneNode(true) : '',
+      textCell
+    ]);
+  });
 
-    return [iconCell, textCell];
-  }
-
-  // Build rows for each card
-  const rows = cardNodes.map(card => extractCardContent(card));
-
-  // Compose table data
-  const cells = [headerRow, ...rows];
-
-  // Create block table
-  const block = WebImporter.DOMUtils.createTable(cells, document);
-
-  // Replace original element with block table
-  element.replaceWith(block);
+  const table = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(table);
 }

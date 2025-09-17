@@ -1,24 +1,27 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Defensive: Only process if element is a UL with the expected class
-  if (!element || element.tagName !== 'UL') return;
+  // Defensive: ensure we have the expected structure
+  if (!element || !element.querySelectorAll) return;
 
-  // Get all immediate LI children (each column)
-  const columns = Array.from(element.querySelectorAll(':scope > li'));
-  if (!columns.length) return;
-
-  // Header row as per spec
+  // Header row as per block guidelines
   const headerRow = ['Columns (columns3)'];
 
-  // Content row: each LI is a column cell
-  const contentRow = columns;
+  // Each <li> is a column cell
+  const items = Array.from(element.children);
+  if (!items.length) return;
 
-  // Build the table
-  const table = WebImporter.DOMUtils.createTable([
+  // Build the columns row
+  const columnsRow = items.map((li) => li);
+
+  // Compose the table
+  const cells = [
     headerRow,
-    contentRow
-  ], document);
+    columnsRow,
+  ];
 
-  // Replace the original element with the new table
-  element.replaceWith(table);
+  // Create the block table
+  const block = WebImporter.DOMUtils.createTable(cells, document);
+
+  // Replace the original element with the new block table
+  element.replaceWith(block);
 }
