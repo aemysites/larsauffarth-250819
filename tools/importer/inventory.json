@@ -6,15 +6,20 @@
       "totalBoxes": 1,
       "instances": [
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-00-835274ec06aa0929a882546dd82e781d97ccca8e",
-          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]"
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
         }
       ],
       "styles": {
-        "height": 387,
-        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+        "height": 101
       }
     },
     {
@@ -23,203 +28,118 @@
       "totalBoxes": 1,
       "instances": [
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-14-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]"
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
         }
       ],
       "styles": {
-        "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box"
+        "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box"
       }
     }
   ],
   "blocks": [
     {
-      "name": "header",
+      "name": "Cards",
       "cluster": 1,
-      "source": "Header",
-      "target": "Header (header1)",
-      "key": "header1",
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
       "instances": [
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-00-835274ec06aa0929a882546dd82e781d97ccca8e",
-          "xpath": "/html[1]/body[1]/header[1]/div[1]/div[3]/nav[1]/div[2]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-03-494bdb6e4bda012740ec09a76b6818e9245fcfc0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-03-494bdb6e4bda012740ec09a76b6818e9245fcfc0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]"
         }
       ]
     },
     {
-      "name": "Hero",
+      "name": "header",
       "cluster": 2,
-      "source": "Hero",
-      "target": "Hero (hero2)",
-      "key": "hero2",
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
       "instances": [
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-01-1202332ce7cd8307efd803d8735fefc8bda3f610",
-          "xpath": "/html[1]/body[1]/main[1]/div[1]/div[1]",
-          "section": "section-2"
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
         }
       ]
     },
     {
-      "name": "Columns",
+      "name": "unknown",
       "cluster": 3,
-      "source": "Columns",
-      "target": "Columns (columns3)",
-      "key": "columns3",
       "instances": [
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-04-e2c30ea848d3b7145974e92355df50a0c66ce6a9",
-          "xpath": "/html[1]/body[1]/main[1]/div[2]/div[1]/div[1]/div[4]/div[2]/div[3]/ul[1]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 4,
-      "source": "Cards",
-      "target": "Cards (cards4)",
-      "key": "cards4",
-      "instances": [
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-01-cf5fac3f055b54c0e91a2ac709a5e6c3380015aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[2]"
+        },
         {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-06-7fdd2b4f0f950f88f30b01c875ca8e93b42e4d0e",
-          "xpath": "/html[1]/body[1]/main[1]/div[3]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Carousel",
-      "cluster": 5,
-      "source": "Carousel",
-      "target": "Carousel (carousel5)",
-      "key": "carousel5",
-      "instances": [
-        {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-09-729dbc69bd6754c600fde0469e2be2df5ed4759f",
-          "xpath": "/html[1]/body[1]/main[1]/div[5]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Cards",
-      "cluster": 6,
-      "source": "Cards",
-      "target": "Cards (cards6)",
-      "key": "cards6",
-      "instances": [
-        {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-11-c4bb9bcd6b7f5c126349492502c25a1cfc4ec93e",
-          "xpath": "/html[1]/body[1]/main[1]/div[6]/div[2]"
-        }
-      ]
-    },
-    {
-      "name": "Hero",
-      "cluster": 7,
-      "source": "Hero",
-      "target": "Hero (hero7)",
-      "key": "hero7",
-      "instances": [
-        {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-12-ac2e8bbd7c8831a5258ff52117328fd77c4de5bd",
-          "xpath": "/html[1]/body[1]/main[1]/div[7]"
-        }
-      ]
-    },
-    {
-      "name": "Columns",
-      "cluster": 8,
-      "source": "Columns",
-      "target": "Columns (columns8)",
-      "key": "columns8",
-      "instances": [
-        {
-          "url": "https://www.aem.live/",
-          "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-          "uuid": "134c71e1-13-a8c51d850e4b4dbaa33ed7a0990d2ec9dfe2e836",
-          "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[1]",
-          "section": "section-1"
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-01-cf5fac3f055b54c0e91a2ac709a5e6c3380015aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[2]"
         }
       ]
     }
   ],
   "outliers": [
     {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-02-da37bc29bcd449f108cac73dfd3399bf90e92678",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[2]/div[1]/div[1]/ul[1]",
-      "section": "section-3"
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+      "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+      "uuid": "63173a65-02-4a92fbc8b0a99f90d4f6b2d9c7ed9b2f57e17ac5",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]"
     },
     {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-03-9125ff314aefc17364a00ffdd2c54a5dd0c25aea",
-      "xpath": "/html[1]/body[1]/main[1]/div[1]/div[3]"
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+      "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+      "uuid": "63173a65-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+      "xpath": "/html[1]/body[1]/div[3]",
+      "section": "section-1"
     },
     {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-05-0d1b706870bc7ace13b06cf144620465738500f6",
-      "xpath": "/html[1]/body[1]/main[1]/div[3]/div[1]/div[2]/h3[1]"
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+      "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+      "uuid": "7d8a7f3f-02-4a92fbc8b0a99f90d4f6b2d9c7ed9b2f57e17ac5",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]"
     },
     {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-07-ac18c7f4ff0dda41caddc17273e87ac35c820487",
-      "xpath": "/html[1]/body[1]/main[1]/div[4]"
-    },
-    {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-08-6dc87bcf9ebe619bf7d5770048c4bcc9fff44085",
-      "xpath": "/html[1]/body[1]/main[1]/div[5]/div[1]/div[2]/h3[1]"
-    },
-    {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-10-3d94e268c3cccc9bc0195455e91830491f262b0c",
-      "xpath": "/html[1]/body[1]/main[1]/div[6]/div[1]/div[2]/h3[1]"
-    },
-    {
-      "url": "https://www.aem.live/",
-      "urlHash": "134c71e14d5a5a457f7657a91f8b82402445fb23",
-      "uuid": "134c71e1-14-def7d361ac99a1e72392c32ac6538e18a7ea6f75",
-      "xpath": "/html[1]/body[1]/footer[1]/div[1]/div[1]/div[2]",
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+      "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+      "uuid": "7d8a7f3f-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+      "xpath": "/html[1]/body[1]/div[3]",
       "section": "section-1"
     }
   ],
   "sections": [
     {
       "name": "section-1",
-      "background": "rgb(248, 248, 248) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 3
-    },
-    {
-      "name": "section-2",
-      "background": "rgba(0, 0, 0, 0) url(\"https://www.aem.live/img/colorful-bg.jpg\") repeat scroll 50% 50% / cover padding-box border-box",
-      "count": 1
-    },
-    {
-      "name": "section-3",
-      "background": "rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box",
-      "count": 1
+      "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
     }
   ]
 }
