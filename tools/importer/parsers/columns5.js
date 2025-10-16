@@ -1,48 +1,65 @@
 /* global WebImporter */
 export default function parse(element, { document }) {
-  // Find the main d-flex row containing the columns
-  const dFlex = element.querySelector('.d-flex');
-  if (!dFlex) return;
+  // Find all tab-pane profile sections
+  const tabPanes = Array.from(element.querySelectorAll(':scope > div.tab-pane'));
+  if (!tabPanes.length) return;
 
-  // Get the two main columns
-  const columns = dFlex.querySelectorAll(':scope > div');
-  if (columns.length < 2) return;
+  // Prepare rows: header first
+  const headerRow = ['Columns (columns5)'];
+  const rows = [headerRow];
 
-  // First column: image
-  const imgCol = columns[0];
-  const img = imgCol.querySelector('img');
+  tabPanes.forEach((tabPane) => {
+    const dFlex = tabPane.querySelector('.d-flex');
+    if (!dFlex) return;
+    const columns = Array.from(dFlex.children);
+    if (columns.length < 2) return;
 
-  // Second column: content
-  const contentCol = columns[1];
-  const contentFragments = [];
+    // Left column: image
+    const leftCol = columns[0];
+    const img = leftCol.querySelector('img');
 
-  // Collect all content from the second column, not just title and paragraphs
-  Array.from(contentCol.childNodes).forEach(node => {
-    // Include elements with text or lists, skip empty text nodes
-    if (node.nodeType === 1) { // Element
-      if (
-        node.tagName === 'DIV' && node.classList.contains('title') && node.textContent.trim()
-      ) {
-        contentFragments.push(node);
-      } else if (
-        node.tagName === 'P' && node.textContent.trim()
-      ) {
-        contentFragments.push(node);
-      } else if (
-        node.tagName === 'DIV' && node.classList.contains('flex-col-100')
-      ) {
-        // Registered States block: include as is
-        contentFragments.push(node);
+    // Right column: content
+    const rightCol = columns[1];
+    const rightContent = [];
+
+    // Collect all direct children of rightCol (to include all text content)
+    Array.from(rightCol.children).forEach((child) => {
+      // For the 'Registered States' block, flatten the label and the list into one paragraph
+      if (child.classList.contains('flex-col-100')) {
+        const statesLabel = child.querySelector('b');
+        const statesList = child.querySelector('ul.comma-list');
+        let statesText = '';
+        if (statesLabel) {
+          statesText += statesLabel.textContent.trim();
+        }
+        if (statesList) {
+          // Join all state abbreviations with commas
+          const states = Array.from(statesList.querySelectorAll('li')).map(li => li.textContent.trim());
+          if (states.length) {
+            statesText += '\n' + states.join(', ');
+          }
+        }
+        if (statesText) {
+          const p = document.createElement('p');
+          p.textContent = statesText;
+          rightContent.push(p);
+        }
+      } else {
+        // Otherwise, include the element as-is if it has text or is an element
+        if (
+          (child.textContent && child.textContent.trim()) ||
+          child.tagName === 'UL' ||
+          child.tagName === 'DIV' ||
+          child.tagName === 'H2'
+        ) {
+          rightContent.push(child);
+        }
       }
-    }
+    });
+
+    rows.push([img, rightContent]);
   });
 
-  // Table header
-  const headerRow = ['Columns (columns5)'];
-  // Table content row: image | content
-  const contentRow = [img, contentFragments];
-
-  // Create table and replace
-  const table = WebImporter.DOMUtils.createTable([headerRow, contentRow], document);
-  element.replaceWith(table);
+  const block = WebImporter.DOMUtils.createTable(rows, document);
+  element.replaceWith(block);
 }
