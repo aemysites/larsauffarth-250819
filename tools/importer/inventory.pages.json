@@ -1,0 +1,28 @@
+{
+  "templates": [
+    {
+      "name": "'Video Content Hub'",
+      "cluster": 1,
+      "pages": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Meet-the-team.htm",
+          "uuid": "f7b01c38cc40980174160f0b1dc50f5754fcd776"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "uuid": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00"
+        }
+      ]
+    },
+    {
+      "name": "'Contact Form Page'",
+      "cluster": 2,
+      "pages": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Contact.htm",
+          "uuid": "367f1b0ee4259e544fd4fd05420ac4ed1098f5e3"
+        }
+      ]
+    }
+  ]
+}
