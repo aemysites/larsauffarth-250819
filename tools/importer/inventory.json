@@ -1,0 +1,145 @@
+{
+  "fragments": [
+    {
+      "name": "nav",
+      "path": "/nav",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        }
+      ],
+      "styles": {
+        "height": 101
+      }
+    },
+    {
+      "name": "footer",
+      "path": "/footer",
+      "totalBoxes": 1,
+      "instances": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+          "xpath": "/html[1]/body[1]/div[3]"
+        }
+      ],
+      "styles": {
+        "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box"
+      }
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Cards",
+      "cluster": 1,
+      "source": "Cards",
+      "target": "Cards (cards1)",
+      "key": "cards1",
+      "instances": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-03-494bdb6e4bda012740ec09a76b6818e9245fcfc0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-03-494bdb6e4bda012740ec09a76b6818e9245fcfc0",
+          "xpath": "/html[1]/body[1]/div[2]/div[1]/div[2]"
+        }
+      ]
+    },
+    {
+      "name": "header",
+      "cluster": 2,
+      "source": "Header",
+      "target": "Header (header2)",
+      "key": "header2",
+      "instances": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-00-440341ac79b621fb87685a124d9e29f517748102",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[1]"
+        }
+      ]
+    },
+    {
+      "name": "unknown",
+      "cluster": 3,
+      "instances": [
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+          "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+          "uuid": "63173a65-01-cf5fac3f055b54c0e91a2ac709a5e6c3380015aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[2]"
+        },
+        {
+          "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+          "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+          "uuid": "7d8a7f3f-01-cf5fac3f055b54c0e91a2ac709a5e6c3380015aa",
+          "xpath": "/html[1]/body[1]/div[1]/div[1]/header[1]/div[2]"
+        }
+      ]
+    }
+  ],
+  "outliers": [
+    {
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+      "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+      "uuid": "63173a65-02-4a92fbc8b0a99f90d4f6b2d9c7ed9b2f57e17ac5",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/",
+      "urlHash": "63173a653ed63654a0537cc8a7c4c4813b9545e6",
+      "uuid": "63173a65-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+      "xpath": "/html[1]/body[1]/div[3]",
+      "section": "section-1"
+    },
+    {
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+      "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+      "uuid": "7d8a7f3f-02-4a92fbc8b0a99f90d4f6b2d9c7ed9b2f57e17ac5",
+      "xpath": "/html[1]/body[1]/div[2]/div[1]/div[1]"
+    },
+    {
+      "url": "https://advisors.ubs.com/thegulfcoastgroup/Index.htm",
+      "urlHash": "7d8a7f3f66f654992e33fc30c4893c8908ec6a00",
+      "uuid": "7d8a7f3f-04-ab3e4de776b49f538ccb9d433b686862faf5a7cc",
+      "xpath": "/html[1]/body[1]/div[3]",
+      "section": "section-1"
+    }
+  ],
+  "sections": [
+    {
+      "name": "section-1",
+      "background": "rgb(245, 245, 245) none repeat scroll 0% 0% / auto padding-box border-box",
+      "count": 2
+    }
+  ]
+}
